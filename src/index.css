@@ -20,13 +20,14 @@
   --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
+  --font-weight-bold: 700;
 
   --font-size-body: 1.125rem;
   --font-size-body-mobile: 1rem;
   --line-height-body: 1.7;
 
   /* Layout */
-  --max-width: 720px;
+  --max-width: 960px;
   --padding-mobile: 2rem;
   --padding-desktop: 4rem;
 }
