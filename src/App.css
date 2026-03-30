@@ -1,93 +1,148 @@
 .container {
-  max-width: 800px;
+  max-width: var(--max-width);
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: var(--padding-mobile);
 }
 
+@media (min-width: 769px) {
+  .container {
+    padding: var(--padding-desktop);
+  }
+}
+
+/* Hero Section */
 .hero {
-  text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: var(--spacing-3xl);
+  padding-top: var(--spacing-2xl);
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  font-weight: 700;
+  font-size: 4rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: var(--spacing-lg);
 }
 
 .tagline {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-light);
   line-height: 1.6;
-  color: #666;
-  max-width: 700px;
-  margin: 0 auto;
+  color: var(--color-primary);
+  max-width: 100%;
 }
 
+@media (min-width: 769px) {
+  .hero h1 {
+    font-size: 6rem;
+  }
+
+  .tagline {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .tagline {
+    font-size: 1.25rem;
+  }
+}
+
+/* About Section */
 .about {
-  margin-bottom: 60px;
+  margin-bottom: var(--spacing-3xl);
 }
 
 .about h2 {
-  font-size: 1.75rem;
-  margin-bottom: 20px;
-  font-weight: 600;
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-secondary);
+  margin-bottom: var(--spacing-xl);
 }
 
 .about p {
-  font-size: 1rem;
-  line-height: 1.7;
-  margin-bottom: 20px;
-  color: #444;
+  margin-bottom: var(--spacing-lg);
 }
 
+.about p:last-child {
+  margin-bottom: 0;
+}
+
+/* Experience Section */
 .experience {
-  margin-bottom: 60px;
+  margin-bottom: var(--spacing-3xl);
 }
 
 .experience h2 {
-  font-size: 1.75rem;
-  margin-bottom: 30px;
-  font-weight: 600;
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-secondary);
+  margin-bottom: var(--spacing-xl);
 }
 
 .experience-grid {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 0;
 }
 
 .experience-card {
-  padding: 20px;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  background: #fafafa;
+  padding: var(--spacing-lg) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.experience-card:first-child {
+  padding-top: 0;
+}
+
+.experience-card:last-child {
+  border-bottom: none;
 }
 
 .experience-card h3 {
-  font-size: 1.1rem;
-  margin-bottom: 10px;
-  font-weight: 600;
-  color: #222;
+  font-size: 1.125rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: -0.01em;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-primary);
 }
 
 .experience-card p {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: #555;
-  margin: 0;
+  color: var(--color-secondary);
+  line-height: var(--line-height-body);
 }
 
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
+/* Contact Section */
+.contact {
+  margin-top: var(--spacing-3xl);
+  margin-bottom: var(--spacing-3xl);
+  text-align: center;
+}
 
-  .tagline {
-    font-size: 1.1rem;
-  }
+.linkedin-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+  text-decoration: none;
+  border: 1px solid var(--color-border);
+  transition: border-color 0.2s ease;
+}
 
-  .about h2,
-  .experience h2 {
-    font-size: 1.5rem;
-  }
+.linkedin-button:hover {
+  border-color: var(--color-primary);
 }

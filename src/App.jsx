@@ -49,6 +49,17 @@ function App() {
           ))}
         </div>
       </section>
+
+      <section className="contact">
+        <a
+          href="https://www.linkedin.com/in/jedcrystal/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="linkedin-button"
+        >
+          Connect with me on LinkedIn
+        </a>
+      </section>
     </div>
   )
 }
