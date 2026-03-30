@@ -1,10 +1,10 @@
 :root {
-  /* Colors */
-  --color-bg: #FFFFFF;
-  --color-primary: #0F0F0F;
-  --color-secondary: #6B7280;
-  --color-border: #E5E7EB;
-  --color-accent: #1D4ED8;
+  /* Colors - Dark Mode */
+  --color-bg: #0A0A0A;
+  --color-primary: #F5F5F5;
+  --color-secondary: #9CA3AF;
+  --color-border: #1F1F1F;
+  --color-accent: #3B82F6;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -16,8 +16,9 @@
   --spacing-3xl: 6rem;
 
   /* Typography */
-  --font-family: 'Inter', sans-serif;
+  --font-family: 'Space Grotesk', sans-serif;
   --font-weight-light: 300;
+  --font-weight-regular: 400;
   --font-weight-semibold: 600;
 
   --font-size-body: 1.125rem;
@@ -65,5 +66,15 @@ p {
 @media (max-width: 768px) {
   body {
     font-size: var(--font-size-body-mobile);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

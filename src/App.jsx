@@ -28,12 +28,12 @@ function App() {
     <div className="container">
       <section className="hero">
         <h1>Jed Crystal</h1>
-        <p className="tagline">Creating intuitive products with hands-on design, business strategy, and user experience.</p>
+        <p className="tagline">Creating intuitive products with hands-on design, business strategy, and user&nbsp;experience.</p>
       </section>
 
       <section className="about">
         <h2>About</h2>
-        <p>I'm a product and UX designer with 20+ years of experience across physical goods and digital tools. My background spans CAD software, wearable robotics, ecommerce, and soft goods — but the goal has always been the same: turn complexity into something simple and delightful that people can actually use.</p>
+        <p>I'm a product and UX designer with 20+ years of experience across physical goods and digital tools. My background spans CAD software, wearable robotics, ecommerce, and soft goods — but the goal has always been the same: turn complexity into something simple and delightful that people can actually&nbsp;use.</p>
 
         <p>I founded and sold a consumer brand, and now work as a UX designer at SolidWorks helping engineers learn faster and work smarter. I collaborate closely with engineers and PMs because great ideas in Figma still have to survive legacy code — and great renderings still have to be manufacturable at the right cost.</p>
       </section>
