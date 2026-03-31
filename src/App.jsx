@@ -36,6 +36,15 @@ function App() {
         <p>I'm a product and UX designer with 20+ years of experience across physical goods and digital tools. My background spans CAD software, wearable robotics, ecommerce, and soft goods — but the goal has always been the same: turn complexity into something simple and delightful that people can actually&nbsp;use.</p>
 
         <p>I founded and sold a consumer brand, and now work as a UX designer at SolidWorks helping engineers learn faster and work smarter. I collaborate closely with engineers and PMs because great ideas in Figma still have to survive legacy code — and great renderings still have to be manufacturable at the right cost.</p>
+
+        <a
+          href="https://www.linkedin.com/in/jedcrystal/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="linkedin-button"
+        >
+          Connect with me on LinkedIn
+        </a>
       </section>
 
       <section className="experience">
@@ -48,17 +57,6 @@ function App() {
             </div>
           ))}
         </div>
-      </section>
-
-      <section className="contact">
-        <a
-          href="https://www.linkedin.com/in/jedcrystal/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="linkedin-button"
-        >
-          Connect with me on LinkedIn
-        </a>
       </section>
     </div>
   )
