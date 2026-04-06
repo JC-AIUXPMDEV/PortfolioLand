@@ -1,3 +1,182 @@
+# PortfolioLand — CLAUDE.md
+
+## Reading Order
+
+Before working on this project, read the doctrine in this order:
+
+1. **VECTOR.md** — Project philosophy, design principles, constraints
+2. **CLAUDE.md** — This file (onboarding briefing)
+3. **ARCHITECTURE.md** — Technical specification and layer rules
+
+## Architecture Reference
+
+**Read ARCHITECTURE.md and follow it.** It is the single technical authority for this project. All layer boundaries, naming conventions, styling patterns, and development principles are defined there.
+
+## Project Overview
+
+**PortfolioLand** is a personal portfolio website for Jed Crystal, a product and UX designer with 20+ years experience. The site is intentionally minimal — the design itself demonstrates taste, restraint, and intentionality. This is not a template; it's a design artifact.
+
+**Target audience:** Potential employers evaluating Jed's expertise and deciding whether to hire.
+
+**Brand personality:** Minimal. Intentional. Curious.
+
+## Stack Summary
+
+| Layer | Technology | Version |
+|-------|-----------|---------|
+| Framework | React | 19.2.4 |
+| Build Tool | Vite | 8.0.1 |
+| Styling | Plain CSS with CSS variables | - |
+| Typography | Space Grotesk (Google Fonts) | weights 300, 400, 600, 700 |
+| Linting | ESLint | 9.17.0 |
+| Version Control | Git + GitHub CLI | - |
+
+**No state management.** Static content only.
+**No routing.** Single-page application (intentionally).
+**No backend.** Pure frontend deployment.
+
+## Key Context
+
+### 1. Single-Component Architecture
+The entire application lives in `src/App.jsx` — one component with three sections (hero, about, experience). This is intentional simplicity, not a missing abstraction. Do not extract components unless the file exceeds 200 lines.
+
+### 2. Dark Mode Only
+Dark mode is **not a user preference toggle** — it's an intentional design choice that shapes the entire aesthetic. The color palette is fixed:
+- Background: `#0A0A0A` (deep dark, not pure black)
+- Primary text: `#F5F5F5` (near white)
+- Accent: `#3B82F6` (single blue, used sparingly)
+
+Never introduce light mode colors or a theme switcher.
+
+### 3. CSS Design Token System
+All visual properties are defined as CSS variables in `src/index.css` (`:root`). Never hardcode colors, spacing, or typography values in component CSS. Always reference the tokens:
+```css
+--color-bg, --color-primary, --color-accent
+--spacing-xs through --spacing-3xl
+--font-family, --font-weight-*
+--max-width, --padding-mobile, --padding-desktop
+```
+
+### 4. Animations Are Allowed (and Encouraged)
+Unlike typical minimal portfolios, this design includes sophisticated animations:
+- Entrance animations with staggered delays
+- Hover interactions (4px movements, color shifts, opacity fades)
+- Blue accent dividers that animate on load
+- All use exponential easing: `cubic-bezier(0.16, 1, 0.3, 1)`
+- All animations respect `prefers-reduced-motion: reduce`
+
+Animations should feel refined and intentional, not flashy.
+
+### 5. Console Easter Egg
+`src/main.jsx` contains a styled console message for curious developers ("Curious, aren't you?"). This is brand voice — preserve it during any refactoring.
+
+### 6. Responsive Strategy
+Mobile-first with a single breakpoint at 769px. Typography scales dramatically (5rem → 10rem for hero). Test at both mobile and desktop sizes.
+
+### 7. Content Constraints
+- No lorem ipsum — always real content
+- Widow prevention using `&nbsp;` between last two words of taglines
+- LinkedIn CTA stays in the about section, left-aligned
+- Experience categories live as inline data in App.jsx (no separate data file)
+
+## What Not to Do
+
+These are the most important prohibitions from ARCHITECTURE.md, surfaced here so you see them early:
+
+1. **No hardcoded visual values in component CSS**
+   Always use CSS variables from `index.css`. Never write `color: #3B82F6` — write `color: var(--color-accent)`.
+
+2. **No inline styles**
+   All styling lives in CSS files. React `style={{}}` props are prohibited.
+
+3. **No Tailwind, styled-components, or CSS-in-JS**
+   Plain CSS only. This is a constraint, not a preference.
+
+4. **No generic AI design patterns**
+   No gradients, glassmorphism, neon effects, purple/blue AI gradients, or anything that looks template-generated. If it could have come from a default prompt, redesign it.
+
+5. **No fonts from the "overused" list**
+   Space Grotesk only. Do not introduce Inter, Poppins, Montserrat, or Roboto.
+
+6. **No theme toggle or light mode**
+   Dark mode is fixed. Do not add a switcher.
+
+7. **No breaking the 960px max-width**
+   Content container is fixed at 960px centered. Do not change this.
+
+8. **No images or media**
+   Pure typography and layout. No photos, icons, illustrations, or decorative SVGs.
+
+## Commit Format
+
+All commits should include the Co-Authored-By trailer:
+
+```
+git commit -m "$(cat <<'EOF'
+Your commit message here.
+
+Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
+EOF
+)"
+```
+
+Use descriptive commit messages that explain the "why," not just the "what."
+
+## Standup Format
+
+When providing status updates, use this format:
+
+```
+## Status: [In Progress / Blocked / Complete]
+
+**What I did:**
+- [Specific changes made]
+
+**What's next:**
+- [Immediate next steps]
+
+**Blockers:**
+- [None / specific issues]
+```
+
+## Development Commands
+
+```bash
+npm run dev      # Start dev server (http://localhost:5173)
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Run ESLint
+```
+
+## Quality Gates
+
+Before pushing code, verify:
+- ✓ WCAG AA contrast ratios maintained
+- ✓ Focus indicators visible on interactive elements
+- ✓ Touch targets minimum 44px
+- ✓ Animations disabled for `prefers-reduced-motion: reduce`
+- ✓ No console errors or warnings
+- ✓ Responsive at both mobile and desktop breakpoints
+- ✓ Widow prevention on key copy using `&nbsp;`
+
+## Collaboration Style
+
+**You are the designer's collaborator**, not an order-taker. If you see a violation of the principles (generic patterns, hardcoded values, unnecessary complexity), push back. If you notice an opportunity for simplification, advocate for it. Every choice in this portfolio communicates design thinking — the code quality is part of the portfolio itself.
+
+When uncertain, ask questions. When clear, be direct.
+
+<!--
+═══════════════════════════════════════════════════════════════════════════════
+LEGACY CONTENT (Archived 2026-03-30)
+
+The content below was the original CLAUDE.md created during project setup.
+It has been replaced because it reflected early design decisions (light mode,
+Inter font, 720px max-width, restricted animations) that were later evolved
+through systematic design improvements.
+
+Preserved here for reference. The current doctrine is in the sections above.
+───────────────────────────────────────────────────────────────────────────────
+
 # Portfolio — CLAUDE.md
 
 ## Project
@@ -51,3 +230,8 @@ taste, intention, and restraint.
 - No animations unless extremely subtle (opacity fade only)
 - No generic AI design patterns — glassmorphism, neon, purple/blue gradients
 - No lorem ipsum — always use real content
+
+═══════════════════════════════════════════════════════════════════════════════
+END LEGACY CONTENT
+═══════════════════════════════════════════════════════════════════════════════
+-->
