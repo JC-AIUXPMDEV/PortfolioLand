@@ -32,7 +32,7 @@ function App() {
       </section>
 
       <section className="about">
-        <h2>About</h2>
+        <h2><span className="section-num">01</span>About</h2>
         <p>I've spent 20+ years building products from the ground up — physically and digitally. I founded Hepper, a modern consumer pet brand, ran it for 13 years, and negotiated a successful exit. That experience gave me a rare end-to-end view: owning product strategy, design, and the business simultaneously, from zero to&nbsp;exit.</p>
 
         <p>Before and after Hepper, I've worked at the intersection of physical and digital — designing wearable robotics at Harvard's Wyss Institute, leading UX for 3D CAD software at SolidWorks, and consulting for consumer brands from early concept through production. My industrial design background pushes every digital decision through a physical-world lens. My UX background means I think beyond the object — to how it's worn, used, and connected to the digital ecosystem around&nbsp;it.</p>
@@ -50,16 +50,20 @@ function App() {
       </section>
 
       <section className="experience">
-        <h2>Experience</h2>
+        <h2><span className="section-num">02</span>Experience</h2>
         <div className="experience-grid">
           {experienceCategories.map((category, index) => (
             <div key={index} className="experience-card">
+              <span className="card-num">{String(index + 1).padStart(2, '0')}</span>
               <h3>{category.title}</h3>
               <p>{category.description}</p>
             </div>
           ))}
         </div>
       </section>
+      <footer className="site-footer">
+        <p>Jed Crystal &mdash; 2026</p>
+      </footer>
     </div>
   )
 }

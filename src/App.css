@@ -76,7 +76,7 @@
   letter-spacing: -0.03em;
   line-height: 0.95;
   margin-bottom: var(--spacing-xl);
-  color: var(--color-accent);
+  color: var(--color-primary);
   animation: heroEntrance 1s cubic-bezier(0.16, 1, 0.3, 1) both;
   cursor: default;
   transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
@@ -152,24 +152,27 @@
 }
 
 .about h2 {
-  font-size: 0.875rem;
-  font-weight: var(--font-weight-semibold);
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  font-size: 1.125rem;
+  font-weight: var(--font-weight-light);
+  letter-spacing: -0.01em;
+  color: var(--color-primary);
   margin-bottom: var(--spacing-2xl);
-  transition: color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  cursor: default;
-}
-
-.about h2:hover {
-  color: var(--color-accent);
 }
 
 .about p {
   margin-bottom: var(--spacing-xl);
   font-size: 1.125rem;
   line-height: 1.75;
+}
+
+.section-num {
+  font-size: 0.6875rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-secondary);
+  letter-spacing: 0.1em;
 }
 
 .about .linkedin-button {
@@ -188,7 +191,7 @@
   }
 
   .about .linkedin-button {
-    margin-top: var(--spacing-xl);
+    margin-top: var(--spacing-2xl);
   }
 
   .about::after {
@@ -198,29 +201,35 @@
 
 /* Experience Section */
 .experience {
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
   animation: fadeIn 0.8s ease-out 0.6s both;
 }
 
 .experience h2 {
-  font-size: 0.875rem;
-  font-weight: var(--font-weight-semibold);
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  font-size: 1.125rem;
+  font-weight: var(--font-weight-light);
+  letter-spacing: -0.01em;
+  color: var(--color-primary);
   margin-bottom: var(--spacing-2xl);
-  transition: color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  cursor: default;
-}
-
-.experience h2:hover {
-  color: var(--color-accent);
 }
 
 .experience-grid {
   display: flex;
   flex-direction: column;
   gap: 0;
+}
+
+.card-num {
+  display: block;
+  font-size: 0.6875rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-secondary);
+  letter-spacing: 0.1em;
+  margin-bottom: var(--spacing-xs);
+  opacity: 0.7;
 }
 
 .experience-card {
@@ -263,7 +272,7 @@
 
 @media (min-width: 769px) {
   .experience {
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
   }
 
   .experience-card h3 {
@@ -286,15 +295,28 @@
 .linkedin-button:hover {
   border-color: var(--color-accent);
   color: var(--color-accent);
-  transform: translateY(-4px) scale(1.02);
+  transform: translateY(-3px);
 }
 
 .linkedin-button:active {
-  transform: translateY(-2px) scale(0.98);
+  transform: translateY(-1px);
 }
 
 .linkedin-button:focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 4px;
   border-color: var(--color-accent);
+}
+
+/* Footer */
+.site-footer {
+  padding-top: var(--spacing-2xl);
+  padding-bottom: var(--spacing-3xl);
+  border-top: 1px solid var(--color-border);
+}
+
+.site-footer p {
+  font-size: 0.8125rem;
+  color: var(--color-secondary);
+  letter-spacing: 0.03em;
 }
