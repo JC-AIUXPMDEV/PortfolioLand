@@ -1,0 +1,108 @@
+/* ─── Work Page Header ───────────────────────────────────────── */
+
+.work-header {
+  padding-top: var(--spacing-3xl);
+  padding-bottom: var(--spacing-2xl);
+  animation: fadeIn 0.8s ease-out both;
+}
+
+.work-header h1 {
+  font-size: 3rem;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+@media (min-width: 769px) {
+  .work-header h1 {
+    font-size: 4rem;
+  }
+}
+
+.work-intro {
+  font-size: 1.125rem;
+  color: var(--color-secondary);
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+/* ─── Project List ───────────────────────────────────────────── */
+
+.work-list {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--spacing-3xl);
+}
+
+/* ─── Project Card ───────────────────────────────────────────── */
+
+.project-card {
+  padding: var(--spacing-2xl) 0;
+  border-top: 1px solid var(--color-border);
+  animation: fadeIn 0.6s ease-out both;
+  transition: border-color 0.2s ease;
+}
+
+.project-card:last-child {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.project-card:hover {
+  border-color: var(--color-accent);
+}
+
+.project-card-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.project-name {
+  font-size: 1.75rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: -0.02em;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.2;
+  transition: color 0.2s ease;
+}
+
+@media (min-width: 769px) {
+  .project-name {
+    font-size: 2.25rem;
+  }
+}
+
+.project-card:hover .project-name {
+  color: var(--color-accent);
+}
+
+.project-description {
+  font-size: 1rem;
+  color: var(--color-secondary);
+  line-height: 1.7;
+  max-width: 640px;
+  margin-bottom: var(--spacing-xl);
+}
+
+.project-link {
+  display: inline-block;
+  font-size: 0.9375rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-secondary);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  transition: color 0.2s ease;
+}
+
+.project-link:hover {
+  color: var(--color-accent);
+}
+
+.project-link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}

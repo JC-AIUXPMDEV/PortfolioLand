@@ -1,70 +1,69 @@
+import { Routes, Route, Link, NavLink, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import './App.css'
+import Home from './pages/Home'
+import Work from './pages/Work'
+import Ministry from './pages/Ministry'
+import Hepper from './pages/Hepper'
+import Wyss from './pages/Wyss'
+import ShelfReady from './pages/ShelfReady'
+import About from './pages/About'
+import Contact from './pages/Contact'
+
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+  return null
+}
 
 function App() {
-  const experienceCategories = [
-    {
-      title: 'Physical + Digital Product Development',
-      description: 'End-to-end product development across soft goods, wearables, accessories, and connected devices — from brief through factory production and market launch. Fluent in CAD, prototyping, manufacturing, and the handoff between design intent and what actually gets made.'
-    },
-    {
-      title: 'Founding & Business Ownership',
-      description: 'Founded and scaled Hepper, a DTC consumer pet products brand — full P&L ownership, manufacturing across three countries, international retail, and a successful exit. Currently advising early-stage founders on product and go-to-market strategy through Sketch to Shelf.'
-    },
-    {
-      title: 'UX & Software Product Design',
-      description: 'Led UX for SolidWorks desktop and cloud applications, designing for professional engineers at scale. Deep fluency in user research, workflow mapping, design systems, and cross-functional product development inside large-company release cycles.'
-    },
-    {
-      title: 'Wearable Technology',
-      description: 'Designed textile-based wearable robotics at Harvard\'s Wyss Institute — building hands-on fluency in how garments and devices attach, move, and perform on the body, balancing comfort, biomechanics, and sensor reliability.'
-    },
-    {
-      title: 'AI & Emerging Tools',
-      description: 'Actively building with AI tools — exploring the intersection of AI-assisted product development, design practice, and physical product frameworks.'
-    }
-  ]
-
   return (
-    <div className="container">
-      <section className="hero">
-        <h1>Jed Crystal</h1>
-        <p className="tagline">Product leader at the intersection of physical and digital — wearable tech, consumer goods, and the systems that connect&nbsp;them.</p>
-      </section>
-
-      <section className="about">
-        <h2><span className="section-num">01</span>About</h2>
-        <p>I've spent 20+ years building products from the ground up — physically and digitally. I founded Hepper, a modern consumer pet brand, ran it for 13 years, and negotiated a successful exit. That experience gave me a rare end-to-end view: owning product strategy, design, and the business simultaneously, from zero to&nbsp;exit.</p>
-
-        <p>Before and after Hepper, I've worked at the intersection of physical and digital — designing wearable robotics at Harvard's Wyss Institute, leading UX for 3D CAD software at SolidWorks, and consulting for consumer brands from early concept through production. My industrial design background pushes every digital decision through a physical-world lens. My UX background means I think beyond the object — to how it's worn, used, and connected to the digital ecosystem around&nbsp;it.</p>
-
-        <p>What I do best is hold the whole product in my head at once — the business case, the user experience, the manufacturing reality — and design across all three at the&nbsp;same&nbsp;time.</p>
-
-        <a
-          href="https://www.linkedin.com/in/jedcrystal/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="linkedin-button"
-        >
-          Connect with me on LinkedIn
-        </a>
-      </section>
-
-      <section className="experience">
-        <h2><span className="section-num">02</span>Experience</h2>
-        <div className="experience-grid">
-          {experienceCategories.map((category, index) => (
-            <div key={index} className="experience-card">
-              <span className="card-num">{String(index + 1).padStart(2, '0')}</span>
-              <h3>{category.title}</h3>
-              <p>{category.description}</p>
-            </div>
-          ))}
+    <>
+      <ScrollToTop />
+      <header className="nav">
+        <div className="nav-inner">
+          <Link to="/" className="nav-logo">Jed Crystal</Link>
+          <nav aria-label="Main navigation">
+            <ul className="nav-links">
+              <li><NavLink to="/work">Work</NavLink></li>
+              <li><NavLink to="/about">About</NavLink></li>
+              <li><NavLink to="/contact">Contact</NavLink></li>
+            </ul>
+          </nav>
         </div>
-      </section>
+      </header>
+
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/work/ministry-of-supply" element={<Ministry />} />
+          <Route path="/work/hepper" element={<Hepper />} />
+          <Route path="/work/wyss-institute" element={<Wyss />} />
+          <Route path="/work/shelf-ready" element={<ShelfReady />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+
       <footer className="site-footer">
-        <p>Jed Crystal &mdash; 2026</p>
+        <div className="footer-inner">
+          <span>Jed Crystal</span>
+          {/* [EMAIL PLACEHOLDER] */}
+          <span>[email@placeholder.com]</span>
+          {/* [LINKEDIN URL PLACEHOLDER] */}
+          <a
+            href="https://www.linkedin.com/in/jedcrystal/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin.com/in/jedcrystal
+          </a>
+        </div>
       </footer>
-    </div>
+    </>
   )
 }
 
