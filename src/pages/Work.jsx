@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Work.css'
 
@@ -37,6 +38,23 @@ const projects = [
 ]
 
 function Work() {
+  useEffect(() => {
+    const items = document.querySelectorAll('[data-reveal]')
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible')
+            observer.unobserve(entry.target)
+          }
+        })
+      },
+      { threshold: 0.1 }
+    )
+    items.forEach((item) => observer.observe(item))
+    return () => observer.disconnect()
+  }, [])
+
   return (
     <div className="container">
 
@@ -47,8 +65,12 @@ function Work() {
       </section>
 
       <section className="work-list">
-        {projects.map((project) => (
-          <article key={project.slug} className="project-card">
+        {projects.map((project, index) => (
+          <article
+            key={project.slug}
+            className={`project-card project-card--${index + 1}`}
+            data-reveal
+          >
             <div className="project-card-header">
               <span className="category-tag">{project.category}</span>
               {project.wip && <span className="wip-badge">Work in Progress</span>}
@@ -60,7 +82,8 @@ function Work() {
                 to={`/work/${project.slug}`}
                 className="project-link"
               >
-                View Project →
+                View Project
+                <span className="project-link-arrow" aria-hidden="true">→</span>
               </Link>
             )}
           </article>

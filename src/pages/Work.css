@@ -2,30 +2,35 @@
 
 .work-header {
   padding-top: var(--spacing-3xl);
-  padding-bottom: var(--spacing-2xl);
-  animation: fadeIn 0.8s ease-out both;
+  padding-bottom: var(--spacing-xl);
 }
 
 .work-header h1 {
-  font-size: 3rem;
-  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-display);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: var(--font-weight-extrabold);
   letter-spacing: -0.03em;
   line-height: 1;
   color: var(--color-primary);
-  margin-bottom: var(--spacing-md);
-}
+  margin-bottom: var(--spacing-xl);
 
-@media (min-width: 769px) {
-  .work-header h1 {
-    font-size: 4rem;
-  }
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1.25rem;
+
+  opacity: 0;
+  animation: slideUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
 }
 
 .work-intro {
-  font-size: 1.125rem;
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
+  font-weight: var(--font-weight-light);
   color: var(--color-secondary);
   line-height: 1.6;
-  max-width: 520px;
+  max-width: 44ch;
+  padding-left: calc(1.25rem + 3px); /* align with h1 text edge */
+
+  opacity: 0;
+  animation: slideUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards;
 }
 
 /* ─── Project List ───────────────────────────────────────────── */
@@ -33,7 +38,7 @@
 .work-list {
   display: flex;
   flex-direction: column;
-  padding-bottom: var(--spacing-3xl);
+  padding-bottom: var(--spacing-4xl);
 }
 
 /* ─── Project Card ───────────────────────────────────────────── */
@@ -41,16 +46,36 @@
 .project-card {
   padding: var(--spacing-2xl) 0;
   border-top: 1px solid var(--color-border);
-  animation: fadeIn 0.6s ease-out both;
-  transition: border-color 0.2s ease;
+
+  /* Hover transition only — reveal handled by animation below */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: border-top-color 0.2s ease;
 }
 
 .project-card:last-child {
   border-bottom: 1px solid var(--color-border);
 }
 
+/* Stagger delays via custom property — animation only, not hover */
+.project-card--1 { --reveal-delay: 0ms; }
+.project-card--2 { --reveal-delay: 100ms; }
+.project-card--3 { --reveal-delay: 200ms; }
+.project-card--4 { --reveal-delay: 300ms; }
+
+.project-card.is-visible {
+  opacity: 1; /* fallback if animation disabled */
+  transform: translateY(0);
+  animation: cardReveal 0.6s cubic-bezier(0.16, 1, 0.3, 1) var(--reveal-delay, 0ms) both;
+}
+
+@keyframes cardReveal {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 .project-card:hover {
-  border-color: var(--color-accent);
+  border-top-color: var(--color-accent);
 }
 
 .project-card-header {
@@ -76,21 +101,20 @@
   }
 }
 
-.project-card:hover .project-name {
-  color: var(--color-accent);
-}
 
 .project-description {
-  font-size: 1rem;
+  font-size: 0.9375rem;
   color: var(--color-secondary);
   line-height: 1.7;
-  max-width: 640px;
+  max-width: 56ch;
   margin-bottom: var(--spacing-xl);
 }
 
 .project-link {
-  display: inline-block;
-  font-size: 0.9375rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.875rem;
   font-weight: var(--font-weight-semibold);
   color: var(--color-secondary);
   text-decoration: none;
@@ -100,6 +124,10 @@
 
 .project-link:hover {
   color: var(--color-accent);
+}
+
+.project-link-arrow {
+  display: inline-block;
 }
 
 .project-link:focus-visible {

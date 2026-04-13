@@ -1,10 +1,12 @@
 :root {
-  /* Colors - Dark Mode */
-  --color-bg: #0A0A0A;
-  --color-primary: #F5F5F5;
-  --color-secondary: #9CA3AF;
-  --color-border: #1F1F1F;
-  --color-accent: #3B82F6;
+  /* Colors */
+  --color-bg: #0E0E0F;
+  --color-surface: #141416;
+  --color-primary: #F2F2F0;
+  --color-secondary: #888894;
+  --color-tertiary: #555560;
+  --color-border: #1E1E24;
+  --color-accent: #F5631A;   /* safety orange — use sparingly */
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -14,13 +16,16 @@
   --spacing-xl: 3rem;
   --spacing-2xl: 4rem;
   --spacing-3xl: 6rem;
+  --spacing-4xl: 8rem;
 
   /* Typography */
+  --font-family-display: 'Syne', sans-serif;
   --font-family: 'Space Grotesk', sans-serif;
   --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
 
   --font-size-body: 1.125rem;
   --font-size-body-mobile: 1rem;
@@ -28,7 +33,7 @@
 
   /* Layout */
   --max-width: 960px;
-  --padding-mobile: 2rem;
+  --padding-mobile: 1.5rem;
   --padding-desktop: 4rem;
 }
 
@@ -47,7 +52,10 @@ body {
   font-size: var(--font-size-body);
   line-height: var(--line-height-body);
   color: var(--color-primary);
-  background: var(--color-bg);
+  background-color: var(--color-bg);
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.11) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-attachment: fixed;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

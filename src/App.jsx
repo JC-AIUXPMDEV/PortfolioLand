@@ -10,10 +10,22 @@ import ShelfReady from './pages/ShelfReady'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
+const pageTitles = {
+  '/':                        'Jed Crystal — Product & UX Designer',
+  '/work':                    'Work — Jed Crystal',
+  '/work/ministry-of-supply': 'Ministry of Supply — Jed Crystal',
+  '/work/hepper':             'Hepper — Jed Crystal',
+  '/work/wyss-institute':     'Wyss Institute — Jed Crystal',
+  '/work/shelf-ready':        'Shelf Ready — Jed Crystal',
+  '/about':                   'About — Jed Crystal',
+  '/contact':                 'Contact — Jed Crystal',
+}
+
 function ScrollToTop() {
   const { pathname } = useLocation()
   useEffect(() => {
     window.scrollTo(0, 0)
+    document.title = pageTitles[pathname] ?? 'Jed Crystal — Product & UX Designer'
   }, [pathname])
   return null
 }

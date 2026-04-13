@@ -25,59 +25,71 @@ Before working on this project, read the doctrine in this order:
 | Layer | Technology | Version |
 |-------|-----------|---------|
 | Framework | React | 19.2.4 |
+| Routing | react-router-dom | 7.14.0 |
 | Build Tool | Vite | 8.0.1 |
-| Styling | Plain CSS with CSS variables | - |
-| Typography | Space Grotesk (Google Fonts) | weights 300, 400, 600, 700 |
-| Linting | ESLint | 9.17.0 |
-| Version Control | Git + GitHub CLI | - |
+| Styling | Plain CSS with CSS variables | — |
+| Typography | Space Grotesk + Syne (Google Fonts) | Space Grotesk: 300/400/600/700; Syne: 600/700/800 |
+| Linting | ESLint | 9.39.4 |
+| Version Control | Git + GitHub CLI | — |
 
 **No state management.** Static content only.
-**No routing.** Single-page application (intentionally).
+**Multi-page with React Router.** 8 routes, client-side navigation.
 **No backend.** Pure frontend deployment.
 
 ## Key Context
 
-### 1. Single-Component Architecture
-The entire application lives in `src/App.jsx` — one component with three sections (hero, about, experience). This is intentional simplicity, not a missing abstraction. Do not extract components unless the file exceeds 200 lines.
+### 1. Multi-Page Router Architecture
+`src/App.jsx` is the router shell — it renders the nav, footer, and `<Routes>`. All page content lives in `src/pages/` (one component per route). Do not put page content in App.jsx. Do not extract shared sub-components unless a pattern repeats across 3+ pages.
+
+**Routes:**
+- `/` → Home.jsx
+- `/work` → Work.jsx
+- `/work/hepper` → Hepper.jsx
+- `/work/ministry-of-supply` → Ministry.jsx
+- `/work/wyss-institute` → Wyss.jsx
+- `/work/shelf-ready` → ShelfReady.jsx
+- `/about` → About.jsx
+- `/contact` → Contact.jsx
 
 ### 2. Dark Mode Only
-Dark mode is **not a user preference toggle** — it's an intentional design choice that shapes the entire aesthetic. The color palette is fixed:
-- Background: `#0A0A0A` (deep dark, not pure black)
-- Primary text: `#F5F5F5` (near white)
-- Accent: `#3B82F6` (single blue, used sparingly)
+Dark mode is **not a user preference toggle** — it's an intentional design choice. The color palette is fixed:
+- Background: `#0E0E0F` — cool-tinted dark
+- Surface (elevated): `#141416`
+- Primary text: `#F2F2F0` — near white, slightly warm
+- Secondary text: `#888894` — cool grey
+- Accent: `#F5631A` — safety orange, used sparingly (once per viewport maximum)
 
 Never introduce light mode colors or a theme switcher.
 
 ### 3. CSS Design Token System
 All visual properties are defined as CSS variables in `src/index.css` (`:root`). Never hardcode colors, spacing, or typography values in component CSS. Always reference the tokens:
 ```css
---color-bg, --color-primary, --color-accent
---spacing-xs through --spacing-3xl
---font-family, --font-weight-*
+--color-bg, --color-surface, --color-primary, --color-secondary, --color-tertiary
+--color-border, --color-accent
+--spacing-xs through --spacing-4xl
+--font-family-display, --font-family, --font-weight-*
 --max-width, --padding-mobile, --padding-desktop
 ```
 
-### 4. Animations Are Allowed (and Encouraged)
-Unlike typical minimal portfolios, this design includes sophisticated animations:
-- Entrance animations with staggered delays
-- Hover interactions (4px movements, color shifts, opacity fades)
-- Blue accent dividers that animate on load
-- All use exponential easing: `cubic-bezier(0.16, 1, 0.3, 1)`
+### 4. Animation System
+Two distinct animation mechanisms — do not mix them:
+- **Page-load entrances:** CSS `animation` with `slideUp` keyframe (defined in App.css), staggered `animation-delay` per element
+- **Scroll reveals:** IntersectionObserver adds `.is-visible` class; reveal uses CSS `animation` (not `transition`) on the element. This prevents stagger `transition-delay` from bleeding into hover states (a known Safari issue)
+- **Hover states:** `transition` on `color` and `border-color` only — no transform animations on hover
+- All easing: `cubic-bezier(0.16, 1, 0.3, 1)` (exponential ease-out)
 - All animations respect `prefers-reduced-motion: reduce`
-
-Animations should feel refined and intentional, not flashy.
 
 ### 5. Console Easter Egg
 `src/main.jsx` contains a styled console message for curious developers ("Curious, aren't you?"). This is brand voice — preserve it during any refactoring.
 
 ### 6. Responsive Strategy
-Mobile-first with a single breakpoint at 769px. Typography scales dramatically (5rem → 10rem for hero). Test at both mobile and desktop sizes.
+Mobile-first with a single breakpoint at 769px. Hero headline scales from `3rem` to `7.5rem` via `clamp()`. Interior page h1s scale from `2.5rem` to `4rem`. Test at both mobile and desktop sizes.
 
 ### 7. Content Constraints
 - No lorem ipsum — always real content
 - Widow prevention using `&nbsp;` between last two words of taglines
-- LinkedIn CTA stays in the about section, left-aligned
-- Experience categories live as inline data in App.jsx (no separate data file)
+- LinkedIn CTA stays in the about section
+- Page data (project descriptions, bio) lives inline in each page component — no separate data files at this scale
 
 ## What Not to Do
 
@@ -95,8 +107,8 @@ These are the most important prohibitions from ARCHITECTURE.md, surfaced here so
 4. **No generic AI design patterns**
    No gradients, glassmorphism, neon effects, purple/blue AI gradients, or anything that looks template-generated. If it could have come from a default prompt, redesign it.
 
-5. **No fonts from the "overused" list**
-   Space Grotesk only. Do not introduce Inter, Poppins, Montserrat, or Roboto.
+5. **No fonts outside the permitted set**
+   Space Grotesk (body/UI) and Syne (display headings) are the only permitted fonts. Do not introduce Inter, Poppins, Montserrat, Roboto, or any other font.
 
 6. **No theme toggle or light mode**
    Dark mode is fixed. Do not add a switcher.
@@ -115,7 +127,7 @@ All commits should include the Co-Authored-By trailer:
 git commit -m "$(cat <<'EOF'
 Your commit message here.
 
-Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 EOF
 )"
 ```

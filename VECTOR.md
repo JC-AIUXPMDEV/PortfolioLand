@@ -60,29 +60,33 @@ project:
 ### Visual Language
 
 **Typography:**
-- Space Grotesk font from Google Fonts
-- Weights: 300 (light), 400 (regular), 600 (semibold), 700 (bold)
-- Dramatic scale: 10rem hero on desktop, 1.125rem–1.25rem body
-- Generous line heights: 1.7–1.75 for readability
-- Negative letter spacing on large type: -0.03em to -0.04em
+- **Display headings (h1, hero):** Syne — geometric, distinctive at large scale. Weights: 600, 700, 800
+- **Body, UI, secondary headings:** Space Grotesk — geometric, legible. Weights: 300, 400, 600, 700
+- Hero headline: `clamp(3rem, 8vw, 7.5rem)`, Syne 800, letter-spacing -0.03em
+- Interior page h1: `clamp(2.5rem, 5vw, 4rem)`, Syne 800
+- Body: 1.125rem–1.25rem, line-height 1.7–1.75
+- Negative letter spacing on large type: -0.03em
 
 **Color Palette (Dark Mode):**
-- Background: `#0A0A0A` (deep dark, not pure black)
-- Primary text: `#F5F5F5` (near white, not pure white)
-- Secondary text: `#9CA3AF` (muted gray)
-- Accent: `#3B82F6` (single precise blue — use sparingly)
-- Borders: `#1F1F1F` (subtle, low contrast)
+- Background: `#0E0E0F` (cool-tinted dark, not pure black)
+- Surface (elevated): `#141416`
+- Primary text: `#F2F2F0` (near white, slightly warm)
+- Secondary text: `#888894` (cool grey)
+- Tertiary / borders: `#1E1E24` (subtle cool-tinted boundary)
+- Accent: `#F5631A` (safety orange — industrial, distinctive, used sparingly)
+- No secondary accent colors. Orange is the only color that earns emphasis.
 
 **Layout:**
 - Max content width: 960px, centered
-- Generous padding: 2rem mobile, 4rem desktop
-- Sections separated by 4rem mobile / 6rem desktop
-- Blue accent dividers: 2px height, 80px/120px width, animated
+- Padding: 1.5rem mobile, 4rem desktop
+- Page header padding-top: 6rem (4 × 24px grid unit)
+- Dot-grid background via `radial-gradient` fixed to viewport
 
 **Interaction:**
 - All transitions use exponential easing: `cubic-bezier(0.16, 1, 0.3, 1)`
-- Hover effects: 4px movements, opacity fades to 70%, color shifts to accent blue
-- Staggered entrance animations with delays
+- Hover effects: color shifts to accent orange, border-color transitions
+- Scroll-driven reveal animations via IntersectionObserver (`.is-visible` class)
+- Staggered entrance animations on page load (hero elements) and scroll reveal
 - Respect `prefers-reduced-motion` preference
 
 ### Anti-Patterns to Avoid
@@ -135,16 +139,16 @@ Add specific constraints for this portfolio:
 **Technical Constraints:**
 - React functional components only (no class components)
 - Plain CSS with CSS variables (no Tailwind, no styled-components, no CSS-in-JS)
-- No runtime dependencies beyond React + Vite
+- Runtime dependencies: React, react-router-dom only (no state management libraries)
 - rem units for all sizing (accessibility)
 - No inline styles
 
 **Design Constraints:**
 - Dark mode only (not a user preference toggle — intentional design choice)
-- Space Grotesk font exclusively
-- Single accent color (`#3B82F6`) used sparingly
+- Permitted fonts: Space Grotesk (body/UI) and Syne (display headings) only
+- Single accent color (`#F5631A` safety orange) used sparingly — one instance per viewport maximum
 - Max content width fixed at 960px
-- No images or media (pure typography and layout)
+- No images or media except headshot on About page
 
 **Content Constraints:**
 - No lorem ipsum — always real content

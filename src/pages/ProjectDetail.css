@@ -2,41 +2,50 @@
 
 .project-detail {
   padding-top: var(--spacing-3xl);
-  padding-bottom: var(--spacing-3xl);
-  animation: fadeIn 0.8s ease-out both;
+  padding-bottom: var(--spacing-4xl);
+}
+
+/* ─── Back Link ──────────────────────────────────────────────── */
+
+.project-detail .back-link {
+  opacity: 0;
+  animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards;
 }
 
 /* ─── Project Header ─────────────────────────────────────────── */
 
 .project-detail-header {
   margin-bottom: var(--spacing-3xl);
+
+  opacity: 0;
+  animation: slideUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.25s forwards;
 }
 
 .project-detail-header .category-tag {
+  display: block;
   margin-bottom: var(--spacing-md);
 }
 
 .project-detail-header h1 {
-  font-size: 2.5rem;
-  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-display);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: var(--font-weight-extrabold);
   letter-spacing: -0.03em;
-  line-height: 1.1;
+  line-height: 1.05;
   color: var(--color-primary);
-  margin-bottom: var(--spacing-md);
-}
+  margin-bottom: var(--spacing-lg);
 
-@media (min-width: 769px) {
-  .project-detail-header h1 {
-    font-size: 3.5rem;
-  }
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1.25rem;
 }
 
 .project-framing {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: var(--font-weight-light);
   color: var(--color-secondary);
-  line-height: 1.5;
-  max-width: 560px;
+  line-height: 1.6;
+  max-width: 52ch;
+  padding-left: calc(1.25rem + 3px); /* align with h1 text edge */
 }
 
 /* ─── Project Body Sections ──────────────────────────────────── */
@@ -45,13 +54,18 @@
   display: flex;
   flex-direction: column;
   gap: var(--spacing-3xl);
+
+  opacity: 0;
+  animation: slideUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.45s forwards;
 }
 
 .project-section h2 {
-  font-size: 1.125rem;
+  font-family: var(--font-family);
+  font-size: 0.875rem;
   font-weight: var(--font-weight-semibold);
-  color: var(--color-primary);
-  letter-spacing: -0.01em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
   margin-bottom: var(--spacing-lg);
   padding-bottom: var(--spacing-sm);
   border-bottom: 1px solid var(--color-border);

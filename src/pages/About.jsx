@@ -25,10 +25,10 @@ function About() {
       </section>
 
       <section className="about-skills">
-        <h2>
+        <div className="about-section-header">
           <span className="section-num">01</span>
-          Skills & Expertise
-        </h2>
+          <h2>Skills &amp; Expertise</h2>
+        </div>
         {/* [SKILLS/EXPERTISE LIST PLACEHOLDER] */}
         <ul className="skills-list">
           <li>[SKILL PLACEHOLDER]</li>
@@ -41,10 +41,10 @@ function About() {
       </section>
 
       <section className="about-headshot">
-        <h2>
+        <div className="about-section-header">
           <span className="section-num">02</span>
-          Photo
-        </h2>
+          <h2>Photo</h2>
+        </div>
         {/* [IMAGE PLACEHOLDER — headshot] */}
         <div className="headshot-placeholder" role="img" aria-label="Headshot placeholder">
           <span>[HEADSHOT PLACEHOLDER]</span>
