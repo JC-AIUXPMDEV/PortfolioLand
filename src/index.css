@@ -57,6 +57,7 @@ body {
   background-size: 24px 24px;
   background-attachment: fixed;
   font-synthesis: none;
+  font-kerning: normal;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -234,11 +234,12 @@
   grid-column: 2;
   grid-row: 2;
   font-family: var(--font-family);
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: var(--font-weight-light);
-  line-height: 1.7;
+  line-height: 1.75;
   color: var(--color-primary);
   margin: 0;
+  max-width: 60ch;
 }
 
 /* ─── Bring item — desktop (horizontal spec layout) ─────────── */

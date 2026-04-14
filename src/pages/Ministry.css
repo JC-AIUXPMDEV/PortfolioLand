@@ -166,10 +166,11 @@
 }
 
 .ministry-section p {
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   line-height: 1.75;
   color: var(--color-primary);
   margin-bottom: var(--spacing-md);
+  max-width: 65ch;
 }
 
 .ministry-section p:last-child {
@@ -263,6 +264,7 @@
   letter-spacing: -0.03em;
   color: var(--color-primary);
   line-height: 1;
+  font-variant-numeric: tabular-nums lining-nums;
 }
 
 .ministry-stat .stat-desc {
@@ -311,7 +313,7 @@
 }
 
 .field-label {
-  font-size: 0.5625rem;
+  font-size: 0.625rem;
   font-weight: var(--font-weight-semibold);
   letter-spacing: 0.1em;
   text-transform: uppercase;
