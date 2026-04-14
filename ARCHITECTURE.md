@@ -270,10 +270,11 @@ All visual properties defined as CSS variables in `src/index.css :root`:
         ├── Contact.jsx         /contact — email, LinkedIn
         ├── Contact.css
         ├── Hepper.jsx          /work/hepper
-        ├── Ministry.jsx        /work/ministry-of-supply
+        ├── Ministry.jsx        /work/ministry-of-supply (long-form, sidebar nav)
+        ├── Ministry.css        Page-specific layout (two-column sidebar + content)
         ├── Wyss.jsx            /work/wyss-institute
         ├── ShelfReady.jsx      /work/shelf-ready
-        └── ProjectDetail.css   Shared styles for all case study pages
+        └── ProjectDetail.css   Shared styles for Hepper, Wyss, ShelfReady
 ```
 
 ## Build & Deployment
