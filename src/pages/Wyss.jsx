@@ -35,6 +35,16 @@ function Wyss() {
             <p>[CONTENT PLACEHOLDER — How did you approach the design problems? Cover material selection, prototyping methods, body-worn attachment systems, and how you balanced biomechanics with sensor reliability and user comfort.]</p>
           </section>
 
+          {/* ── Prototype / exosuit image ── */}
+          {/* Replace with: <figure className="project-image"><img src="/images/wyss-exosuit.jpg" alt="Soft robotic exosuit prototype — textile actuators and attachment system worn on the body" /><figcaption>Exosuit prototype. Wyss Institute, Harvard University.</figcaption></figure> */}
+          <figure className="project-image" aria-label="Research prototype image placeholder">
+            <div className="project-image-placeholder">
+              <span className="project-image-placeholder-label">Add Photo</span>
+              <p className="project-image-placeholder-desc">Prototype or lab photo — the exosuit on a body, a detail of the textile actuator system, or a bench shot of materials and components. This is the physical evidence of the work.</p>
+            </div>
+            <figcaption>Soft robotic exosuit prototype. Wyss Institute, Harvard University. Add: wyss-exosuit.jpg</figcaption>
+          </figure>
+
           <section className="project-section">
             <h2>Key Outcomes</h2>
             {/* [CONTENT PLACEHOLDER] */}

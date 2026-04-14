@@ -45,9 +45,10 @@ function About() {
           <span className="section-num">02</span>
           <h2>Photo</h2>
         </div>
-        {/* [IMAGE PLACEHOLDER — headshot] */}
+        {/* Replace the div below with: <img src="/images/jed-headshot.jpg" className="headshot-photo" alt="Jed Crystal" /> */}
         <div className="headshot-placeholder" role="img" aria-label="Headshot placeholder">
-          <span>[HEADSHOT PLACEHOLDER]</span>
+          <span className="headshot-placeholder-label">Add Photo</span>
+          <span className="headshot-placeholder-desc">Portrait — head and shoulders, neutral or contextual background. File: jed-headshot.jpg (240×300px minimum, portrait crop)</span>
         </div>
       </section>
 
