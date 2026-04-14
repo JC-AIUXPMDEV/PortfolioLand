@@ -71,7 +71,7 @@
   font-size: clamp(1rem, 1.5vw, 1.25rem);
   font-weight: var(--font-weight-light);
   line-height: 1.6;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   max-width: 44ch;
   margin-bottom: var(--spacing-2xl);
   padding-left: calc(1.25rem + 3px); /* align with headline text edge */
@@ -237,7 +237,7 @@
   font-size: 0.875rem;
   font-weight: var(--font-weight-light);
   line-height: 1.7;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   margin: 0;
 }
 

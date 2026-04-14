@@ -34,7 +34,7 @@
   background: none;
   border: none;
   border-left: 2px solid transparent;
-  padding: 0.4rem 0 0.4rem 0.75rem;
+  padding: 0.5rem 0 0.5rem 0.75rem;
   text-align: left;
   cursor: pointer;
   transition: border-color 0.2s ease;
@@ -45,7 +45,7 @@
 }
 
 .ministry-nav-num {
-  font-size: 0.5rem;
+  font-size: 0.625rem;
   font-weight: var(--font-weight-semibold);
   letter-spacing: 0.1em;
   color: var(--color-tertiary);
@@ -55,9 +55,9 @@
 }
 
 .ministry-nav-label {
-  font-size: 0.6875rem;
+  font-size: 1rem;
   font-weight: var(--font-weight-regular);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   color: var(--color-secondary);
   font-family: var(--font-family);
   transition: color 0.2s ease;
@@ -166,9 +166,9 @@
 }
 
 .ministry-section p {
-  font-size: 0.9375rem;
+  font-size: 1.0625rem;
   line-height: 1.75;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   margin-bottom: var(--spacing-md);
 }
 
@@ -322,7 +322,7 @@
 
 .field-body {
   font-size: 0.875rem;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   line-height: 1.65;
   font-family: var(--font-family);
 }
