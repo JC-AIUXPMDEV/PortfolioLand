@@ -7,6 +7,7 @@ import Ministry from './pages/Ministry'
 import Hepper from './pages/Hepper'
 import Wyss from './pages/Wyss'
 import ShelfReady from './pages/ShelfReady'
+import PhysicalDigital from './pages/PhysicalDigital'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
@@ -17,6 +18,7 @@ const pageTitles = {
   '/work/hepper':             'Hepper — Jed Crystal',
   '/work/wyss-institute':     'Wyss Institute — Jed Crystal',
   '/work/shelf-ready':        'Shelf Ready — Jed Crystal',
+  '/work/physical-digital':   'Physical + Digital Product — Jed Crystal',
   '/about':                   'About — Jed Crystal',
   '/contact':                 'Contact — Jed Crystal',
 }
@@ -55,6 +57,7 @@ function App() {
           <Route path="/work/hepper" element={<Hepper />} />
           <Route path="/work/wyss-institute" element={<Wyss />} />
           <Route path="/work/shelf-ready" element={<ShelfReady />} />
+          <Route path="/work/physical-digital" element={<PhysicalDigital />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

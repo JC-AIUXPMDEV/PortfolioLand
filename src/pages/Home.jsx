@@ -6,7 +6,7 @@ const whatIBring = [
   {
     title: 'Physical + Digital Product Development',
     description: 'End-to-end product development across soft goods, wearables, accessories, and connected devices — from brief through factory production and market launch. Fluent in CAD, prototyping, manufacturing, and the handoff between design intent and what actually gets made.',
-    link: '/work'
+    link: '/work/physical-digital'
   },
   {
     title: 'Founding & Business Ownership',

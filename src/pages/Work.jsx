@@ -4,6 +4,13 @@ import './Work.css'
 
 const projects = [
   {
+    name: 'Physical + Digital Product Development',
+    category: 'Crystal Design Studio · SolidWorks',
+    slug: 'physical-digital',
+    description: 'Eighteen years designing physical products from concept to factory floor across soft goods, accessories, and consumer goods — plus four years designing professional tooling for SolidWorks, one of the world\'s leading CAD platforms. Two disciplines, the same through-line.',
+    wip: false
+  },
+  {
     name: 'Ministry of Supply — Sensory Gap Strategy',
     category: 'Product Strategy',
     slug: 'ministry-of-supply',

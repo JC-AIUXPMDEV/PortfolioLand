@@ -62,6 +62,7 @@
 .project-card--2 { --reveal-delay: 100ms; }
 .project-card--3 { --reveal-delay: 200ms; }
 .project-card--4 { --reveal-delay: 300ms; }
+.project-card--5 { --reveal-delay: 400ms; }
 
 .project-card.is-visible {
   opacity: 1; /* fallback if animation disabled */

@@ -78,6 +78,66 @@
   max-width: 65ch;
 }
 
+/* ─── Chapter dividers — two-section pages ───────────────────── */
+
+.project-chapter {
+  padding-top: var(--spacing-3xl);
+  margin-top: var(--spacing-3xl);
+  border-top: 1px solid var(--color-border);
+}
+
+.project-chapter:first-of-type {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: none;
+}
+
+.project-chapter-label {
+  display: block;
+  font-size: 0.6875rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--spacing-md);
+}
+
+.project-chapter-title {
+  font-family: var(--font-family-display);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: var(--font-weight-extrabold);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1.25rem;
+}
+
+.project-chapter-subtitle {
+  font-size: 0.9375rem;
+  font-weight: var(--font-weight-light);
+  font-style: italic;
+  color: var(--color-secondary);
+  line-height: 1.65;
+  padding-left: calc(1.25rem + 3px);
+  margin-bottom: var(--spacing-3xl);
+}
+
+.project-section h3 {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: -0.01em;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+  margin-top: var(--spacing-xl);
+}
+
+.project-section h3:first-child {
+  margin-top: 0;
+}
+
 /* ─── Project Credit / Footer Note ───────────────────────────── */
 
 .project-credit {
