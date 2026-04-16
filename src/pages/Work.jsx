@@ -4,17 +4,23 @@ import './Work.css'
 
 const projects = [
   {
-    name: 'Physical + Digital Product Development',
-    category: 'Crystal Design Studio · SolidWorks',
+    name: 'Physical Product Design and Development',
+    category: 'Crystal Design Studio',
     slug: 'physical-digital',
-    description: 'Eighteen years designing physical products from concept to factory floor across soft goods, accessories, and consumer goods — plus four years designing professional tooling for SolidWorks, one of the world\'s leading CAD platforms. Two disciplines, the same through-line.',
+    description: 'Eighteen years designing physical products from concept to factory floor — soft goods, accessories, and consumer goods across three continents. Founder-to-factory fluency: brief writing, vendor sourcing, overseas manufacturing, and the craft of getting an idea from someone\'s head onto a retail shelf.',
+    wip: false
+  },
+  {
+    name: 'UX & Digital Product Design',
+    category: 'SolidWorks · Dassault Systèmes',
+    slug: 'solidworks',
+    description: 'Four years as UX Design Manager for SolidWorks — one of the world\'s leading 3D CAD platforms. Designing for professional engineers at scale: feature discovery, cloud migration flows, and contextual guidance systems inside large-company release cycles.',
     wip: false
   },
   {
     name: 'Ministry of Supply — Sensory Gap Strategy',
     category: 'Product Strategy',
     slug: 'ministry-of-supply',
-    // [PROJECT DESCRIPTION PLACEHOLDER — 2–3 sentences]
     description: '[PROJECT DESCRIPTION PLACEHOLDER — How physical products get sold through digital screens, and what gets lost in translation. 2–3 sentences describing the strategic exercise and its core insight.]',
     wip: false
   },
@@ -22,7 +28,6 @@ const projects = [
     name: 'Hepper — From Zero to Exit',
     category: 'Founder Case Study',
     slug: 'hepper',
-    // [PROJECT DESCRIPTION PLACEHOLDER — 2–3 sentences]
     description: '[PROJECT DESCRIPTION PLACEHOLDER — 13 years building and selling a consumer products brand. 2–3 sentences covering the scope: founding, scaling, and exit.]',
     wip: false
   },
@@ -30,7 +35,6 @@ const projects = [
     name: 'Wyss Institute — Wearable Robotics',
     category: 'Physical Product Development',
     slug: 'wyss-institute',
-    // [PROJECT DESCRIPTION PLACEHOLDER — 2–3 sentences]
     description: '[PROJECT DESCRIPTION PLACEHOLDER — Designing for the body at the intersection of textile and technology. 2–3 sentences on the research context and design challenges.]',
     wip: false
   },
@@ -38,9 +42,8 @@ const projects = [
     name: 'Shelf Ready — Physical Product Framework',
     category: 'Framework — Work in Progress',
     slug: 'shelf-ready',
-    // [PROJECT DESCRIPTION PLACEHOLDER — 2–3 sentences]
-    description: '[PROJECT DESCRIPTION PLACEHOLDER — A brief-centered operating system for physical product development. 2–3 sentences on what the framework solves and who it\'s for.]',
-    wip: true
+    description: 'Most physical product teams run on a Word doc brief, a shared folder, and one person manually consolidating decisions from calls, emails, and Slack. Shelf Ready is a brief-centered operating system for solo PMs and small teams — adapted from Erika Flowers\' Zero Vector methodology — where decisions are logged daily, analyzed by Claude against the master brief, and nothing reaches the factory floor without the owner confirming it first.',
+    wip: false
   }
 ]
 

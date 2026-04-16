@@ -1,7 +1,7 @@
 /* ─── Project Detail — Shared Styles ─────────────────────────── */
 
 .project-detail {
-  padding-top: var(--spacing-3xl);
+  padding-top: 0;
   padding-bottom: var(--spacing-4xl);
 }
 

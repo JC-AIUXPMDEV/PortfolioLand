@@ -4,24 +4,20 @@ import './Home.css'
 
 const whatIBring = [
   {
-    title: 'Physical + Digital Product Development',
-    description: 'End-to-end product development across soft goods, wearables, accessories, and connected devices — from brief through factory production and market launch. Fluent in CAD, prototyping, manufacturing, and the handoff between design intent and what actually gets made.',
-    link: '/work/physical-digital'
+    title: 'Physical Product Design and Development',
+    description: 'End-to-end product development across soft goods, wearables, accessories, and consumer goods — from brief through factory production and market launch. Fluent in CAD, prototyping, manufacturing, and the handoff between design intent and what actually gets made.',
   },
   {
     title: 'Founding & Business Ownership',
     description: 'Founded and scaled Hepper, a DTC consumer pet products brand — full P&L ownership, manufacturing across three countries, international retail, and a successful exit. Currently advising early-stage founders on product and go-to-market strategy through Sketch to Shelf.',
-    link: '/work/hepper'
   },
   {
     title: 'UX & Software Product Design',
     description: 'Led UX for SolidWorks desktop and cloud applications, designing for professional engineers at scale. Deep fluency in user research, workflow mapping, design systems, and cross-functional product development inside large-company release cycles.',
-    link: '/work/ministry-of-supply'
   },
   {
     title: 'Wearable Technology',
     description: 'Designed textile-based wearable robotics at Harvard\'s Wyss Institute — building hands-on fluency in how garments and devices attach, move, and perform on the body, balancing comfort, biomechanics, and sensor reliability.',
-    link: '/work/wyss-institute'
   }
 ]
 
@@ -65,16 +61,15 @@ function Home() {
 
         <div className="bring-list">
           {whatIBring.map((item, index) => (
-            <Link
+            <div
               key={index}
-              to={item.link}
               className={`bring-item bring-item--${index + 1}`}
               data-reveal
             >
               <span className="bring-num">{String(index + 1).padStart(2, '0')}</span>
               <h3 className="bring-title">{item.title}</h3>
               <p className="bring-desc">{item.description}</p>
-            </Link>
+            </div>
           ))}
         </div>
       </section>

@@ -8,6 +8,7 @@ import Hepper from './pages/Hepper'
 import Wyss from './pages/Wyss'
 import ShelfReady from './pages/ShelfReady'
 import PhysicalDigital from './pages/PhysicalDigital'
+import Solidworks from './pages/Solidworks'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
@@ -18,7 +19,8 @@ const pageTitles = {
   '/work/hepper':             'Hepper — Jed Crystal',
   '/work/wyss-institute':     'Wyss Institute — Jed Crystal',
   '/work/shelf-ready':        'Shelf Ready — Jed Crystal',
-  '/work/physical-digital':   'Physical + Digital Product — Jed Crystal',
+  '/work/physical-digital':   'Physical Product Design — Jed Crystal',
+  '/work/solidworks':         'SolidWorks UX Design — Jed Crystal',
   '/about':                   'About — Jed Crystal',
   '/contact':                 'Contact — Jed Crystal',
 }
@@ -58,6 +60,7 @@ function App() {
           <Route path="/work/wyss-institute" element={<Wyss />} />
           <Route path="/work/shelf-ready" element={<ShelfReady />} />
           <Route path="/work/physical-digital" element={<PhysicalDigital />} />
+          <Route path="/work/solidworks" element={<Solidworks />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
