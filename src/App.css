@@ -33,6 +33,8 @@
   left: 0;
   right: 0;
   z-index: 100;
+  transform: translateZ(0); /* force GPU layer — fixes Safari fixed-position bug */
+  -webkit-transform: translateZ(0);
 }
 
 /* Offset content below fixed header (36px banner + 72px nav) */
