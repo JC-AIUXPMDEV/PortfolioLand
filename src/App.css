@@ -28,9 +28,16 @@
 /* ─── Site Header (banner + nav, sticky as a unit) ───────────── */
 
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 100;
+}
+
+/* Offset content below fixed header (36px banner + 72px nav) */
+main {
+  padding-top: 108px;
 }
 
 /* ─── Under Construction Banner ──────────────────────────────── */
