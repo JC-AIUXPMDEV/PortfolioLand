@@ -38,18 +38,31 @@ function App() {
   return (
     <>
       <ScrollToTop />
-      <header className="nav">
-        <div className="nav-inner">
-          <Link to="/" className="nav-logo">Jed Crystal</Link>
-          <nav aria-label="Main navigation">
-            <ul className="nav-links">
-              <li><NavLink to="/work">Work</NavLink></li>
-              <li><NavLink to="/about">About</NavLink></li>
-              <li><NavLink to="/contact">Contact</NavLink></li>
-            </ul>
-          </nav>
+      <div className="site-header">
+        <div className="site-banner" role="banner">
+          <p className="site-banner-text">
+            Site under construction. Please check back soon or contact me on{' '}
+            <a
+              href="https://www.linkedin.com/in/jedcrystal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="site-banner-link"
+            >LinkedIn</a>.
+          </p>
         </div>
-      </header>
+        <header className="nav">
+          <div className="nav-inner">
+            <Link to="/" className="nav-logo">Jed Crystal</Link>
+            <nav aria-label="Main navigation">
+              <ul className="nav-links">
+                <li><NavLink to="/work">Work</NavLink></li>
+                <li><NavLink to="/about">About</NavLink></li>
+                <li><NavLink to="/contact">Contact</NavLink></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
 
       <main>
         <Routes>

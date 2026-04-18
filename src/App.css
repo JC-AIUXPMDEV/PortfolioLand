@@ -25,12 +25,47 @@
   }
 }
 
-/* ─── Navigation ─────────────────────────────────────────────── */
+/* ─── Site Header (banner + nav, sticky as a unit) ───────────── */
 
-.nav {
+.site-header {
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+/* ─── Under Construction Banner ──────────────────────────────── */
+
+.site-banner {
+  height: 36px;
+  background: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-mobile);
+}
+
+.site-banner-text {
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-align: center;
+}
+
+.site-banner-link {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease;
+}
+
+.site-banner-link:hover {
+  opacity: 0.75;
+}
+
+/* ─── Navigation ─────────────────────────────────────────────── */
+
+.nav {
   height: 72px; /* 3 × 24px grid unit */
   background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
