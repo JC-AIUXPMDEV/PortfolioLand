@@ -7,40 +7,40 @@ const projects = [
     name: 'Physical Product Design and Development',
     category: 'Crystal Design Studio',
     slug: 'physical-digital',
-    description: 'Eighteen years designing physical products from concept to factory floor — soft goods, accessories, and consumer goods across three continents. Founder-to-factory fluency: brief writing, vendor sourcing, overseas manufacturing, and the craft of getting an idea from someone\'s head onto a retail shelf.',
+    description: 'Eighteen years designing and developing physical products from concept to factory floor — soft goods, accessories, and consumer goods. Founder to factory experience: brief writing, vendor sourcing, overseas manufacturing, and all of the steps of getting an idea from someone\'s head onto a retail shelf.',
     wip: false
   },
   {
-    name: 'UX & Digital Product Design',
+    name: 'UX & Software Design',
     category: 'SolidWorks · Dassault Systèmes',
     slug: 'solidworks',
-    description: 'Four years as UX Design Manager for SolidWorks — one of the world\'s leading 3D CAD platforms. Designing for professional engineers at scale: feature discovery, cloud migration flows, and contextual guidance systems inside large-company release cycles.',
+    description: 'Currently working as a User Experience Design Manager for SolidWorks — one of the world\'s leading 3D CAD platforms. Designing for professional engineers at scale: feature discovery, cloud migration flows, and contextual guidance systems inside large company release cycles.',
     wip: false
   },
   {
-    name: 'Ministry of Supply — Sensory Gap Strategy',
-    category: 'Product Strategy',
+    name: 'Product Strategy',
+    category: 'Ministry of Supply — Sensory Gap Strategy',
     slug: 'ministry-of-supply',
-    description: '[PROJECT DESCRIPTION PLACEHOLDER — How physical products get sold through digital screens, and what gets lost in translation. 2–3 sentences describing the strategic exercise and its core insight.]',
+    description: 'Performance apparel brands spend years engineering how a fabric feels. Then they sell it with a photograph. A strategic framework for closing the gap between physical product experience and digital product representation — and the business case for doing it now.',
     wip: false
   },
   {
-    name: 'Hepper — From Zero to Exit',
-    category: 'Founder Case Study',
+    name: 'Founder Case Study — From Zero to Exit',
+    category: 'Hepper',
     slug: 'hepper',
-    description: '[PROJECT DESCRIPTION PLACEHOLDER — 13 years building and selling a consumer products brand. 2–3 sentences covering the scope: founding, scaling, and exit.]',
+    description: 'Thirteen years founding, building, and exiting a DTC consumer products brand — full P&L ownership, manufacturing across three countries, international retail distribution, and a negotiated acquisition. A complete founder case study from first product to exit.',
     wip: false
   },
   {
-    name: 'Wyss Institute — Wearable Robotics',
-    category: 'Physical Product Development',
+    name: 'Physical Product Development — Wearable Robotics',
+    category: 'Wyss Institute at Harvard University',
     slug: 'wyss-institute',
-    description: '[PROJECT DESCRIPTION PLACEHOLDER — Designing for the body at the intersection of textile and technology. 2–3 sentences on the research context and design challenges.]',
+    description: 'Designing a wearable exosuit for industrial workers at the intersection of textile, technology, and the human body — where the engineering challenge is real, and the design constraint is that a factory worker needs to put it on and wear it for eight hours.',
     wip: false
   },
   {
-    name: 'Shelf Ready — Physical Product Framework',
-    category: 'Framework — Work in Progress',
+    name: 'Shelf Ready',
+    category: 'Physical Product Framework — Work in Progress',
     slug: 'shelf-ready',
     description: 'Most physical product teams run on a Word doc brief, a shared folder, and one person manually consolidating decisions from calls, emails, and Slack. Shelf Ready is a brief-centered operating system for solo PMs and small teams — adapted from Erika Flowers\' Zero Vector methodology — where decisions are logged daily, analyzed by Claude against the master brief, and nothing reaches the factory floor without the owner confirming it first.',
     wip: false
@@ -70,8 +70,7 @@ function Work() {
 
       <section className="work-header">
         <h1>Selected Work</h1>
-        {/* [INTRO SENTENCE PLACEHOLDER] */}
-        <p className="work-intro">[INTRO SENTENCE PLACEHOLDER — one line framing what this work represents]</p>
+        <p className="work-intro">Selected work across physical products, software, brand building, and a framework built to connect them.</p>
       </section>
 
       <section className="work-list">

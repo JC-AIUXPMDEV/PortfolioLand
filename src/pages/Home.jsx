@@ -5,19 +5,19 @@ import './Home.css'
 const whatIBring = [
   {
     title: 'Physical Product Design and Development',
-    description: 'End-to-end product development across soft goods, wearables, accessories, and consumer goods — from brief through factory production and market launch. Fluent in CAD, prototyping, manufacturing, and the handoff between design intent and what actually gets made.',
+    description: 'End-to-end product design and development across soft goods, wearables, accessories, and furniture — from brief through factory production and market launch. Fluent in CAD, prototyping, manufacturing — with hard-won knowledge of what survives a factory floor and what doesn\'t.',
   },
   {
-    title: 'Founding & Business Ownership',
+    title: 'Founder & CEO',
     description: 'Founded and scaled Hepper, a DTC consumer pet products brand — full P&L ownership, manufacturing across three countries, international retail, and a successful exit. Currently advising early-stage founders on product and go-to-market strategy through Sketch to Shelf.',
   },
   {
-    title: 'UX & Software Product Design',
-    description: 'Led UX for SolidWorks desktop and cloud applications, designing for professional engineers at scale. Deep fluency in user research, workflow mapping, design systems, and cross-functional product development inside large-company release cycles.',
+    title: 'UX & Software Design',
+    description: 'Leading UX projects for SolidWorks desktop and cloud applications, designing for professional engineers at scale. Experience in user research, workflow mapping, design systems, and cross-functional collaboration inside enterprise scale release cycles.',
   },
   {
     title: 'Wearable Technology',
-    description: 'Designed textile-based wearable robotics at Harvard\'s Wyss Institute — building hands-on fluency in how garments and devices attach, move, and perform on the body, balancing comfort, biomechanics, and sensor reliability.',
+    description: 'Designed textile based wearable robotics at Harvard\'s Wyss Institute — building hands-on experience in how garments and devices attach, move, and perform on the body; balancing comfort, biomechanics, and sensor reliability.',
   }
 ]
 
@@ -43,9 +43,9 @@ function Home() {
     <div className="container">
 
       <section className="home-hero">
-        <h1 className="hero-headline">From brief to built.</h1>
+        <h1 className="hero-headline">from sketch to shelf</h1>
 
-        <p className="hero-sub">Product and UX designer with 20 years at the physical&#8209;digital intersection — soft goods, wearables, software, and consumer brands shipped at&nbsp;scale.</p>
+        <p className="hero-sub">20 years in physical product design and development; bringing soft goods, wearables, and consumer products from sketch to shelf. Currently working at the intersection of hardware, software, and the human experience between&nbsp;them.</p>
 
         <Link to="/work" className="cta-button">
           See My Work

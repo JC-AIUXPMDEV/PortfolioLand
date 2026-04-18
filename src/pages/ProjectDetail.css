@@ -76,6 +76,11 @@
   color: var(--color-primary);
   line-height: 1.75;
   max-width: 65ch;
+  margin-bottom: var(--spacing-md);
+}
+
+.project-section p:last-child {
+  margin-bottom: 0;
 }
 
 /* ─── Chapter dividers — two-section pages ───────────────────── */

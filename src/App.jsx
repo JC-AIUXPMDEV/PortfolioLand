@@ -69,9 +69,6 @@ function App() {
       <footer className="site-footer">
         <div className="footer-inner">
           <span>Jed Crystal</span>
-          {/* [EMAIL PLACEHOLDER] */}
-          <span>[email@placeholder.com]</span>
-          {/* [LINKEDIN URL PLACEHOLDER] */}
           <a
             href="https://www.linkedin.com/in/jedcrystal/"
             target="_blank"

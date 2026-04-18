@@ -13,7 +13,7 @@ Each section is labeled with its **page** and **exact location** in the code. Wh
 - Don't add or remove section headers unless you want to add/remove whole sections from the site
 
 ---
-
+STATUS: Revisions made to this content on 16 April 2026
 ## ═══════════════════════════════════════
 ## PAGE: HOME
 ## File: src/pages/Home.jsx
@@ -22,35 +22,35 @@ Each section is labeled with its **page** and **exact location** in the code. Wh
 ### [Home] Hero Headline
 [FILE: Home.jsx → `<h1 className="hero-headline">`]
 
-From brief to built.
+from sketch to shelf
 
 ---
 
 ### [Home] Hero Subheadline
 [FILE: Home.jsx → `<p className="hero-sub">`]
 
-Product and UX designer with 20 years at the physical‑digital intersection — soft goods, wearables, software, and consumer brands shipped at scale.
+20 years in physical product design and development; bringing soft goods, wearables, and consumer products from sketch to shelf. Currently working at the intersection of hardware, software, and the human experience between them.
 
 ---
 
 ### [Home] "What I Bring" — Item 1 Title
 [FILE: Home.jsx → `whatIBring[0].title`]
 
-Physical + Digital Product Development
+Physical Product Design and Development
 
 ---
 
 ### [Home] "What I Bring" — Item 1 Description
 [FILE: Home.jsx → `whatIBring[0].description`]
 
-End-to-end product development across soft goods, wearables, accessories, and connected devices — from brief through factory production and market launch. Fluent in CAD, prototyping, manufacturing, and the handoff between design intent and what actually gets made.
+End-to-end product design and development across soft goods, wearables, accessories, and furniture — from brief through factory production and market launch. Fluent in CAD, prototyping, manufacturing - with hard-won knowledge of what survives a factory floor and what doesn't.
 
 ---
 
 ### [Home] "What I Bring" — Item 2 Title
 [FILE: Home.jsx → `whatIBring[1].title`]
 
-Founding & Business Ownership
+Founder & CEO
 
 ---
 
@@ -64,14 +64,14 @@ Founded and scaled Hepper, a DTC consumer pet products brand — full P&L owners
 ### [Home] "What I Bring" — Item 3 Title
 [FILE: Home.jsx → `whatIBring[2].title`]
 
-UX & Software Product Design
+UX & Software Design
 
 ---
 
 ### [Home] "What I Bring" — Item 3 Description
 [FILE: Home.jsx → `whatIBring[2].description`]
 
-Led UX for SolidWorks desktop and cloud applications, designing for professional engineers at scale. Deep fluency in user research, workflow mapping, design systems, and cross-functional product development inside large-company release cycles.
+Leading UX projects for SolidWorks desktop and cloud applications, designing for professional engineers at scale. Experience in user research, workflow mapping, design systems, and cross-functional collaboration inside enterprise scale release cycles.
 
 ---
 
@@ -85,7 +85,7 @@ Wearable Technology
 ### [Home] "What I Bring" — Item 4 Description
 [FILE: Home.jsx → `whatIBring[3].description`]
 
-Designed textile-based wearable robotics at Harvard's Wyss Institute — building hands-on fluency in how garments and devices attach, move, and perform on the body, balancing comfort, biomechanics, and sensor reliability.
+Designed textile based wearable robotics at Harvard's Wyss Institute — building hands-on experience in how garments and devices attach, move, and perform on the body; balancing comfort, biomechanics, and sensor reliability.
 
 ---
 
@@ -97,110 +97,132 @@ Designed textile-based wearable robotics at Harvard's Wyss Institute — buildin
 ### [Work] Page Intro Sentence
 [FILE: Work.jsx → `<p className="work-intro">`]
 
-Selected work across physical products, software, brand building, and the frameworks built to connect them.
+Selected work across physical products, software, brand building, and a framework built to connect them.
 
 ---
 
 ### [Work] Project Card 1 — Name
 [FILE: Work.jsx → `projects[0].name`]
 
-Physical + Digital Product Development
+Physical Product Design and Development
 
 ---
 
 ### [Work] Project Card 1 — Category Tag
 [FILE: Work.jsx → `projects[0].category`]
 
-Crystal Design Studio · SolidWorks
+Crystal Design Studio
 
 ---
 
 ### [Work] Project Card 1 — Description
 [FILE: Work.jsx → `projects[0].description`]
 
-Eighteen years designing physical products from concept to factory floor across soft goods, accessories, and consumer goods — plus four years designing professional tooling for SolidWorks, one of the world's leading CAD platforms. Two disciplines, the same through-line.
+Eighteen years designing and developing physical products from concept to factory floor — soft goods, accessories, and consumer goods. Founder to factory experience: brief writing, vendor sourcing, overseas manufacturing, and all of the steps of getting an idea from someone's head onto a retail shelf.
 
 ---
 
 ### [Work] Project Card 2 — Name
 [FILE: Work.jsx → `projects[1].name`]
 
-Ministry of Supply — Sensory Gap Strategy
+UX & Software Design
 
 ---
 
 ### [Work] Project Card 2 — Category Tag
 [FILE: Work.jsx → `projects[1].category`]
 
-Product Strategy
+SolidWorks · Dassault Systèmes
 
 ---
 
 ### [Work] Project Card 2 — Description
 [FILE: Work.jsx → `projects[1].description`]
 
-Performance apparel brands spend years engineering how a fabric feels. Then they sell it with a photograph. A strategic framework for closing the gap between physical product experience and digital product representation — and the business case for doing it now.
+Currently working as a User Experience Design Manager for SolidWorks — one of the world's leading 3D CAD platforms. Designing for professional engineers at scale: feature discovery, cloud migration flows, and contextual guidance systems inside large company release cycles.
 
 ---
 
 ### [Work] Project Card 3 — Name
 [FILE: Work.jsx → `projects[2].name`]
 
-Hepper — From Zero to Exit
+Product Strategy
 
 ---
 
 ### [Work] Project Card 3 — Category Tag
 [FILE: Work.jsx → `projects[2].category`]
 
-Founder Case Study
+Ministry of Supply — Sensory Gap Strategy
 
 ---
 
 ### [Work] Project Card 3 — Description
 [FILE: Work.jsx → `projects[2].description`]
 
-Thirteen years founding, building, and exiting a DTC consumer products brand — full P&L ownership, manufacturing across three countries, international retail distribution, and a negotiated acquisition. A complete founder case study from first product to exit.
+Performance apparel brands spend years engineering how a fabric feels. Then they sell it with a photograph. A strategic framework for closing the gap between physical product experience and digital product representation — and the business case for doing it now.
 
 ---
 
 ### [Work] Project Card 4 — Name
 [FILE: Work.jsx → `projects[3].name`]
 
-Wyss Institute — Wearable Robotics
+Founder Case Study — From Zero to Exit
 
 ---
 
 ### [Work] Project Card 4 — Category Tag
 [FILE: Work.jsx → `projects[3].category`]
 
-Physical Product Development
+Hepper
+
 
 ---
 
 ### [Work] Project Card 4 — Description
 [FILE: Work.jsx → `projects[3].description`]
 
-Designing a wearable exosuit for industrial workers at the intersection of textile, technology, and the human body — where the engineering challenge is real, and the design constraint is that a factory worker needs to put it on and wear it for eight hours.
+Thirteen years founding, building, and exiting a DTC consumer products brand — full P&L ownership, manufacturing across three countries, international retail distribution, and a negotiated acquisition. A complete founder case study from first product to exit.
 
 ---
 
 ### [Work] Project Card 5 — Name
 [FILE: Work.jsx → `projects[4].name`]
 
-Shelf Ready — Physical Product Framework
+Physical Product Development — Wearable Robotics
 
 ---
 
 ### [Work] Project Card 5 — Category Tag
 [FILE: Work.jsx → `projects[4].category`]
 
-Framework — Work in Progress
+Wyss Institute at Harvard University
 
 ---
 
 ### [Work] Project Card 5 — Description
 [FILE: Work.jsx → `projects[4].description`]
+
+Designing a wearable exosuit for industrial workers at the intersection of textile, technology, and the human body — where the engineering challenge is real, and the design constraint is that a factory worker needs to put it on and wear it for eight hours.
+
+---
+
+### [Work] Project Card 6 — Name
+[FILE: Work.jsx → `projects[5].name`]
+
+Shelf Ready
+
+---
+
+### [Work] Project Card 6 — Category Tag
+[FILE: Work.jsx → `projects[5].category`]
+
+Physical Product Framework — Work in Progress
+
+---
+
+### [Work] Project Card 6 — Description
+[FILE: Work.jsx → `projects[5].description`]
 
 Most physical product teams run on a Word doc brief, a shared folder, and one person manually consolidating decisions from calls, emails, and Slack. Shelf Ready is a brief-centered operating system for solo PMs and small teams — adapted from Erika Flowers' Zero Vector methodology — where decisions are logged daily, analyzed by Claude against the master brief, and nothing reaches the factory floor without the owner confirming it first.
 
@@ -214,21 +236,21 @@ Most physical product teams run on a Word doc brief, a shared folder, and one pe
 ### [About] Bio — Paragraph 1
 [FILE: About.jsx → `<section className="about-bio"> <p>` first]
 
-I've spent 20+ years building products from the ground up — physically and digitally. I founded Hepper, a modern consumer pet brand, ran it for 13 years, and negotiated a successful exit. That experience gave me a rare end-to-end view: owning product strategy, design, and the business simultaneously, from zero to exit.
+I've spent 20+ years building products from the ground up — physically and digitally. I founded Hepper, a modern consumer pet brand, ran it for 13 years, and negotiated a successful exit. That experience gave me a rare hands-on end to end experience: owning product strategy, design, and the business simultaneously, from zero to exit.
 
 ---
 
 ### [About] Bio — Paragraph 2
 [FILE: About.jsx → `<section className="about-bio"> <p>` second]
 
-Before and after Hepper, I've worked at the intersection of physical and digital — designing wearable robotics at Harvard's Wyss Institute, leading UX for 3D CAD software at SolidWorks, and consulting for consumer brands from early concept through production. My industrial design background pushes every digital decision through a physical-world lens. My UX background means I think beyond the object — to how it's worn, used, and connected to the digital ecosystem around it.
+Before and after Hepper, I've worked at the intersection of physical and digital — designing wearable robotics at Harvard's Wyss Institute, leading UX projects for 3D CAD software at SolidWorks, and consulting for consumer brands from early concept through production. My industrial design background pushes every digital decision through a physical-world lens. My UX background helps me think beyond the object, to how it's worn, used, and connected to the digital ecosystem around it.
 
 ---
 
 ### [About] Bio — Paragraph 3
 [FILE: About.jsx → `<section className="about-bio"> <p>` third]
 
-What I do best is hold the whole product in my head at once — the business case, the user experience, the manufacturing reality — and design across all three at the same time.
+I think best when I'm working across the full product picture: the business rationale, the user experience, and the manufacturing reality, simultaneously rather than sequentially.
 
 ---
 
@@ -329,18 +351,18 @@ Hepper — From Zero to Exit
 ### [Hepper] Page Header — Framing
 [FILE: Hepper.jsx → `<p className="project-framing">`]
 
-A 13-year case study in consumer product development, brand building, and strategic exit.
+A case study in consumer product development, brand building, and strategic exit.
 
 ---
 
 ### [Hepper] Section: The Opportunity
 [FILE: Hepper.jsx → `<section> <h2>The Opportunity</h2>`]
 
-In the mid-2000s, I was a physical product designer with a growing collection of modern furniture in my home — and a house full of cats. The problem was obvious to anyone with both: the pet product industry had nothing worth buying if you cared about design.
+In the mid-2000s, I was a physical product designer with a growing collection of modern furniture in my home and a house full of cats. The problem was obvious to anyone with both: the pet product industry had nothing worth buying if you cared about design.
 
-I didn't act on that frustration immediately. Instead, I spent time walking pet industry trade shows — both as an attendee and working booths alongside friends who owned existing pet brands.
+I thought this might be a good business direction to explore, so I spent time walking pet industry trade shows as an attendee, and working booths alongside friends who owned existing pet brands.
 
-What I found confirmed the personal observation at a market level: the entire category was dominated by big-box brands knocking each other off, with no meaningful innovation in design or function. The buyers at these shows skewed toward exactly the demographic I knew — design-conscious, modern-living pet owners in their 30s and 40s who spent real money on their homes but had zero options for their pets that didn't look like an eyesore.
+What I found confirmed the personal observation at a market level: the entire category was dominated by big box brands knocking each other off, with no meaningful innovation in design or function. I saw a gap in the demographic I knew — design conscious, modern style pet owners in their 30s and 40s who spent real money on their homes but had zero options for their pets that weren't an eyesore.
 
 That gap between what the market offered and what a clear consumer segment wanted was the founding insight. Not a hunch — a thesis validated by primary research before a single product was designed.
 
@@ -353,13 +375,13 @@ The first product was the Pod Bed — a cat bed with a roof, elevated off the gr
 
 From there, I built out the line methodically, always starting from the same question: what functional problem does this product solve that nothing on the market solves well?
 
-The NomNom Bowl came from a specific pet health insight — whisker fatigue, a real and common issue where cats are stressed by their whiskers touching the sides of a narrow bowl. The NomNom's wide, shallow design eliminated the trigger.
+The NomNom Bowl came from a specific pet health insight; whisker fatigue, a real and common issue where cats are stressed by their whiskers touching the sides of a narrow bowl. The NomNom's wide, shallow design eliminated the trigger.
 
-It also had a raised lip to catch food debris and keep floors clean — a pet owner problem, not just a pet problem. The product solved for both simultaneously.
+It also had a raised lip to catch food debris and keep floors clean; a pet owner problem, not just a pet problem. The product solved for both simultaneously.
 
 The Hi-Lo Scratcher came from a different observation: cardboard scratchers wear out unevenly because cats tend to use only one section. The Hi-Lo could be repositioned into multiple configurations, distributing wear across the surface and dramatically extending product life.
 
-Every product went through the same validation cycle: prototype at home with my own cats, test with friends' pets for broader behavioral feedback, run small focus groups with local pet owners on design and usability. Products that didn't generate genuine excitement got cut. One modular scratcher concept I developed got killed mid-development when manufacturing costs made viable margin impossible — an early lesson in building business feasibility into the design process from the start, not as an afterthought.
+Every product went through the same validation cycle: prototype at home with my own cats, test with friends' pets for broader behavioral feedback, run small focus groups with local pet owners on design and usability. Products that didn't generate genuine excitement got cut. One modular scratcher concept I developed got killed mid-development when manufacturing costs made viable margin impossible. That was an early lesson in building business feasibility into the design process from the start, not as an afterthought.
 
 ---
 
@@ -519,56 +541,35 @@ The shoulder assist device was developed at the Wyss Institute for Biologically 
 ---
 
 ## ═══════════════════════════════════════
-## PAGE: PHYSICAL + DIGITAL PRODUCT DEVELOPMENT
+## PAGE: PHYSICAL PRODUCT DESIGN AND DEVELOPMENT
 ## File: src/pages/PhysicalDigital.jsx
+## NOTE: SolidWorks content has moved to its own page (Solidworks.jsx).
+## This page now covers Crystal Design Studio only.
 ## ═══════════════════════════════════════
 
 ### [PhysicalDigital] Page Header — Category Tag
 [FILE: PhysicalDigital.jsx → `<span className="category-tag">`]
 
-Physical Product Development · UX & Software Design
+Physical Product Design and Development · Crystal Design Studio
 
 ---
 
 ### [PhysicalDigital] Page Header — H1
 [FILE: PhysicalDigital.jsx → `<h1>`]
 
-Physical + Digital Product Development
+Physical Product Design and Development
 
 ---
 
 ### [PhysicalDigital] Page Header — Framing
 [FILE: PhysicalDigital.jsx → `<p className="project-framing">`]
 
-Two disciplines, one through-line: understanding what people need and building something real — whether that's a product in a factory or a workflow in software.
+18 years taking consumer products from concept to market — soft goods, accessories, and home furnishings across three continents.
 
 ---
 
-## — CHAPTER 01: CRYSTAL DESIGN STUDIO —
-
-### [PhysicalDigital] Chapter 01 — Label
-[FILE: PhysicalDigital.jsx → `<span className="project-chapter-label">`]
-
-Chapter 01 — Physical Product
-
----
-
-### [PhysicalDigital] Chapter 01 — Title
-[FILE: PhysicalDigital.jsx → `<h2 className="project-chapter-title">`]
-
-Crystal Design Studio
-
----
-
-### [PhysicalDigital] Chapter 01 — Subtitle
-[FILE: PhysicalDigital.jsx → `<p className="project-chapter-subtitle">`]
-
-18 years taking consumer products from concept to market across soft goods, accessories, and home furnishings.
-
----
-
-### [PhysicalDigital] Chapter 01 — Section: The Work
-[FILE: PhysicalDigital.jsx → `<section> <h2>The Work</h2>` (Chapter 01)]
+### [PhysicalDigital] Section: The Work
+[FILE: PhysicalDigital.jsx → `<section> <h2>The Work</h2>`]
 
 For 18 years I ran a one-person design studio helping everyone from solo inventors to global brands take physical products from first sketch to factory floor. The categories ranged widely — backpacks, luggage, gloves, footwear, and home furnishings — but the core challenge was always the same: translate an idea into something real, manufacturable, and worth buying.
 
@@ -576,8 +577,8 @@ This work ran concurrently with Hepper for most of its life, which meant I was s
 
 ---
 
-### [PhysicalDigital] Chapter 01 — Section: Selected Projects
-[FILE: PhysicalDigital.jsx → `<section> <h2>Selected Projects</h2>` (Chapter 01)]
+### [PhysicalDigital] Section: Selected Projects
+[FILE: PhysicalDigital.jsx → `<section> <h2>Selected Projects</h2>`]
 
 **Go Gaga — Patented Baby Bag System**
 
@@ -599,8 +600,8 @@ The range wasn't accidental. Working across categories meant never getting too c
 
 ---
 
-### [PhysicalDigital] Chapter 01 — Section: What This Built
-[FILE: PhysicalDigital.jsx → `<section> <h2>What This Built</h2>` (Chapter 01)]
+### [PhysicalDigital] Section: What This Built
+[FILE: PhysicalDigital.jsx → `<section> <h2>What This Built</h2>`]
 
 Eighteen years of consulting across dozens of clients and categories built one capability above all others: the ability to communicate design across every kind of gap.
 
@@ -610,38 +611,42 @@ The harder lesson came from the clients who were difficult — typically solo in
 
 ---
 
-### [PhysicalDigital] Chapter 01 — Credit Line
-[FILE: PhysicalDigital.jsx → `<p className="project-credit">` (Chapter 01)]
+### [PhysicalDigital] Credit Line
+[FILE: PhysicalDigital.jsx → `<p className="project-credit">`]
 
 Crystal Design Studio, 2002–2020. Consumer product design and consulting across soft goods, accessories, and home furnishings.
 
 ---
 
-## — CHAPTER 02: SOLIDWORKS —
+## ═══════════════════════════════════════
+## PAGE: UX & DIGITAL PRODUCT DESIGN — SOLIDWORKS
+## File: src/pages/Solidworks.jsx
+## Route: /work/solidworks
+## ═══════════════════════════════════════
 
-### [PhysicalDigital] Chapter 02 — Label
-[FILE: PhysicalDigital.jsx → second `<span className="project-chapter-label">`]
+### [Solidworks] Page Header — Category Tag
+[FILE: Solidworks.jsx → `<span className="category-tag">`]
 
-Chapter 02 — Software UX
-
----
-
-### [PhysicalDigital] Chapter 02 — Title
-[FILE: PhysicalDigital.jsx → second `<h2 className="project-chapter-title">`]
-
-SolidWorks
+UX Design · Professional Software · Dassault Systèmes
 
 ---
 
-### [PhysicalDigital] Chapter 02 — Subtitle
-[FILE: PhysicalDigital.jsx → second `<p className="project-chapter-subtitle">`]
+### [Solidworks] Page Header — H1
+[FILE: Solidworks.jsx → `<h1>`]
+
+SolidWorks — UX Design
+
+---
+
+### [Solidworks] Page Header — Framing
+[FILE: Solidworks.jsx → `<p className="project-framing">`]
 
 Designing for professional engineers at the intersection of complexity and simplicity.
 
 ---
 
-### [PhysicalDigital] Chapter 02 — Section: The Context
-[FILE: PhysicalDigital.jsx → `<section> <h2>The Context</h2>` (Chapter 02)]
+### [Solidworks] Section: The Context
+[FILE: Solidworks.jsx → `<section> <h2>The Context</h2>`]
 
 SolidWorks is one of the world's leading 3D CAD platforms, used by professional engineers, product designers, and manufacturers across nearly every industry. For four years I've been the UX designer responsible for desktop and cloud application experiences — designing for one of the most technically demanding and opinionated user audiences in software.
 
@@ -649,8 +654,8 @@ The work sits at an unusual intersection: deeply complex professional tooling, a
 
 ---
 
-### [PhysicalDigital] Chapter 02 — Section: The Audience
-[FILE: PhysicalDigital.jsx → `<section> <h2>The Audience</h2>` (Chapter 02)]
+### [Solidworks] Section: The Audience
+[FILE: Solidworks.jsx → `<section> <h2>The Audience</h2>`]
 
 Designing for SolidWorks users is unlike designing for most software audiences. These are professional engineers who have spent years — sometimes decades — mastering an extraordinarily complex tool.
 
@@ -662,8 +667,8 @@ At the same time, they are among the most engaged and collaborative users I've w
 
 ---
 
-### [PhysicalDigital] Chapter 02 — Section: Selected Work
-[FILE: PhysicalDigital.jsx → `<section> <h2>Selected Work</h2>` (Chapter 02)]
+### [Solidworks] Section: Selected Work
+[FILE: Solidworks.jsx → `<section> <h2>Selected Work</h2>`]
 
 **Notification & Guidance Component — xDesign Cloud**
 
@@ -695,8 +700,8 @@ Command Search is a universal search layer that surfaces relevant commands conte
 
 ---
 
-### [PhysicalDigital] Chapter 02 — Section: What This Demonstrates
-[FILE: PhysicalDigital.jsx → `<section> <h2>What This Demonstrates</h2>` (Chapter 02)]
+### [Solidworks] Section: What This Demonstrates
+[FILE: Solidworks.jsx → `<section> <h2>What This Demonstrates</h2>`]
 
 Designing for SolidWorks taught me that the hardest UX problems aren't about making things look good — they're about earning trust from users who know more about the domain than you do, introducing change to people who've built their professional identity around the existing system, and translating complex technical constraints into experiences that feel simple without being patronizing.
 
@@ -704,8 +709,8 @@ Those skills — designing for expert users, managing cross-functional complexit
 
 ---
 
-### [PhysicalDigital] Chapter 02 — Credit Line
-[FILE: PhysicalDigital.jsx → `<p className="project-credit">` (Chapter 02)]
+### [Solidworks] Credit Line
+[FILE: Solidworks.jsx → `<p className="project-credit">`]
 
 SolidWorks is a product of Dassault Systèmes. Role: User Experience Design Manager, July 2022 – Present.
 
@@ -1487,7 +1492,7 @@ The following images have placeholder slots in the site. Drop files in `public/i
 | `wyss-exosuit.jpg` | Wyss.jsx | Exosuit worn on body, or bench shot showing components. |
 | `wyss-bodymap.jpg` | Wyss.jsx | Body mapping sketch or prototype showing attachment zones. |
 | `cds-work.jpg` | PhysicalDigital.jsx | Product collage across CDS categories — bags, gloves, home goods. |
-| `solidworks-ui.jpg` | PhysicalDigital.jsx | SolidWorks desktop or xDesign cloud platform screenshot. |
+| `solidworks-ui.jpg` | Solidworks.jsx | SolidWorks desktop or xDesign cloud platform screenshot. |
 | `shelfready-files.jpg` | ShelfReady.jsx | Screenshot: five doctrine files in the project folder with role labels. |
 | `shelfready-brief.jpg` | ShelfReady.jsx | Screenshot: brief template open showing the constraint framework table. |
 | `shelfready-log.jpg` | ShelfReady.jsx | Screenshot: raw notes dropped into Cowork, log saved, conflict flagged in plain language. |
