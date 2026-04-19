@@ -88,6 +88,30 @@
   animation: slideUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
 }
 
+.skills-groups {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl);
+}
+
+@media (min-width: 769px) {
+  .skills-groups {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+  }
+}
+
+.skills-group-title {
+  display: block;
+  font-size: 0.6875rem;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--spacing-sm);
+}
+
 .skills-list {
   list-style: none;
   margin: 0;
@@ -97,8 +121,9 @@
 }
 
 .skills-list li {
-  font-size: 1rem;
+  font-size: 0.9375rem;
   color: var(--color-secondary);
+  line-height: 1.6;
   padding: 0.75rem 0;
   padding-left: var(--spacing-md);
   position: relative;

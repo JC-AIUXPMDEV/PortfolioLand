@@ -38,15 +38,33 @@ function About() {
           <span className="section-num">01</span>
           <h2>Skills &amp; Expertise</h2>
         </div>
-        {/* [SKILLS/EXPERTISE LIST PLACEHOLDER] */}
-        <ul className="skills-list">
-          <li>[SKILL PLACEHOLDER]</li>
-          <li>[SKILL PLACEHOLDER]</li>
-          <li>[SKILL PLACEHOLDER]</li>
-          <li>[SKILL PLACEHOLDER]</li>
-          <li>[SKILL PLACEHOLDER]</li>
-          <li>[SKILL PLACEHOLDER]</li>
-        </ul>
+        <div className="skills-groups">
+
+          <div className="skills-group">
+            <span className="skills-group-title">Product Development</span>
+            <ul className="skills-list">
+              <li>End-to-end physical product development — soft goods, wearables, accessories, and consumer goods from brief to factory to market</li>
+              <li>Brief writing, vendor sourcing, overseas manufacturing, and production management across multiple countries and cultures</li>
+            </ul>
+          </div>
+
+          <div className="skills-group">
+            <span className="skills-group-title">Design and Research</span>
+            <ul className="skills-list">
+              <li>UX design, user research, workflow mapping, and design systems for enterprise software</li>
+              <li>Industrial design, CAD, prototyping, and materials knowledge across textiles, soft goods, and hard goods</li>
+            </ul>
+          </div>
+
+          <div className="skills-group">
+            <span className="skills-group-title">Business and Operations</span>
+            <ul className="skills-list">
+              <li>P&amp;L ownership, DTC e-commerce, brand building, and founder-to-exit experience</li>
+              <li>Cross-functional product leadership and stakeholder alignment without direct authority</li>
+            </ul>
+          </div>
+
+        </div>
       </section>
 
       <section className="about-headshot">
