@@ -28,33 +28,31 @@ function Solidworks() {
 
           <section className="project-section">
             <h2>The Context</h2>
-            <p>SolidWorks is one of the world's leading 3D CAD platforms, used by professional engineers, product designers, and manufacturers across nearly every industry. For four years I've been the UX designer responsible for desktop and cloud application experiences — designing for one of the most technically demanding and opinionated user audiences in software.</p>
+            <p>SolidWorks is one of the world's leading 3D CAD platforms, used by professional engineers, product designers, and manufacturers across nearly every industry. For four years I've been a UX designer responsible for desktop and cloud application experiences, designing for one of the most technically demanding and opinionated user audiences in software.</p>
             <p>The work sits at an unusual intersection: deeply complex professional tooling, a fiercely loyal user base that resists change, and a company pushing hard toward cloud migration. My job is to make that transition feel inevitable rather than&nbsp;disruptive.</p>
           </section>
 
           <section className="project-section">
             <h2>The Audience</h2>
-            <p>Designing for SolidWorks users is unlike designing for most software audiences. These are professional engineers who have spent years — sometimes decades — mastering an extraordinarily complex tool.</p>
+            <p>Designing for SolidWorks users is unlike designing for most software audiences. These are professional engineers who have spent years — sometimes decades — mastering a complex tool.</p>
             <p>Many exhibit what might be called the IKEA effect at scale: they've worked so hard to learn the software that they take genuine pride in that complexity. They don't want it simplified. They want it respected.</p>
             <p>That means change has to be introduced carefully. New UI that gets in the way of an established workflow is not a feature — it's an intrusion. Convincing this audience that something new is worth their attention requires demonstrating clear value quickly, and never asking them to sacrifice efficiency for aesthetics.</p>
-            <p>At the same time, they are among the most engaged and collaborative users I've worked with. They show up to research sessions, share detailed feedback, advocate loudly for improvements, and are genuinely grateful when the team listens. Designing for them is demanding and deeply rewarding in equal&nbsp;measure.</p>
+            <p>At the same time, they are among the most engaged and collaborative users I've worked with. They show up to research sessions, share detailed feedback, advocate loudly for improvements, and are genuinely grateful when the team listens. Designing for them is equally demanding and deeply&nbsp;rewarding.</p>
           </section>
 
           <section className="project-section">
             <h2>Selected Work</h2>
 
-            <h3>Notification &amp; Guidance Component — xDesign Cloud</h3>
-            <p>One of my most recent projects was designing a new contextual notification and guidance component for the xDesign cloud platform. The goal was to create something that felt less like a system alert and more like having a knowledgeable colleague nearby — someone who notices what you're working on and offers a useful insight at exactly the right moment.</p>
-            <p>The component triggers contextually as users move through specific workflow paths, surfacing relevant guidance without interrupting focus. In its simplest state it delivers a single high-value insight.</p>
-            <p>Expanded, it offers up to five modular content sections — explanations, animated GIFs, step-by-step actions, and in some instances a button that takes automated action within the software directly. The entire system is modular, allowing PMs and designers across the platform to configure it for their specific contexts without rebuilding from scratch.</p>
-            <p>What made this project notable wasn't the UI complexity — the interface itself is intentionally simple, consistent with existing patterns. What made it worth doing was the underlying design strategy: treating education as a product feature, not a support&nbsp;function.</p>
+            <h3>Notification &amp; Guidance Component — SolidWorks Desktop</h3>
+            <p>One of my most recent projects was designing a new contextual notification and guidance component for the SolidWorks desktop application. The goal was to create something that felt less like a system alert and more like having a knowledgeable colleague nearby, someone who notices what you're working on and offers a useful insight at exactly the right moment.</p>
+            <p>The component triggers contextually as users move through specific workflow paths, surfacing relevant guidance without interrupting focus. In its simplest state it delivers a single high-value insight. Expanded, it offers up to five modular content sections: explanations, animated GIFs, step-by-step actions, and in some instances a button that takes automated action within the software directly. The entire system is modular, allowing PMs and designers across the platform to configure it for their specific contexts without rebuilding from scratch.</p>
+            <p>What made this project notable wasn't the UI complexity. The interface itself is intentionally simple, consistent with existing patterns. What made it worth doing was the underlying design strategy: treating education as a product feature, not a support&nbsp;function.</p>
 
-            <h3>Configuration Assistant — Desktop Migration Support</h3>
-            <p>SolidWorks is aggressively pushing desktop users toward cloud subscription platforms. One specific file type, when saved to the cloud for the first time, undergoes an irreversible configuration change. If users aren't aware of this before it happens, the consequences are significant — hours of manual remediation, increased support costs, and eroded trust in the migration process.</p>
-            <p>Approximately 10% of migrating users were encountering this problem.</p>
-            <p>I designed the Configuration Assistant — a contextual in-app component that intercepts users at the decision point, explains the implications clearly, and guides them through the right path before the irreversible action occurs.</p>
-            <p>I was both UX designer and de facto project manager on this work, coordinating across the SME team, customer support, user assistance, the platform team in Paris, and a development team split between the US and India — all without formal PM authority.</p>
-            <p>The project required managing stakeholder alignment across time zones and disciplines, translating technical constraints into user-facing language, and building a component that would scale across multiple migration scenarios. It's the kind of project that doesn't look complicated from the outside but requires significant cross-functional coordination to actually&nbsp;ship.</p>
+            <h3>Configuration Assistant — Cloud Migration</h3>
+            <p>The Configuration Assistant is a specific implementation of the notification component, customized for one of SolidWorks' most critical user journeys: migrating from desktop to cloud.</p>
+            <p>One specific file type, when saved to the cloud for the first time, undergoes an irreversible configuration change. If users aren't aware of this before it happens, the consequences are significant: hours of manual remediation, increased support costs, and eroded trust in the migration process. Approximately 10% of migrating users were encountering this problem.</p>
+            <p>The Configuration Assistant uses the notification component to intercept users at the decision point, delivering customized content that explains the implications clearly and guides them through the right path before the irreversible action occurs. I was both UX designer and de facto project manager on this work, coordinating across the SME team, customer support, user assistance, the platform team in Paris, and a development team split between the US and India, all without formal PM authority.</p>
+            <p>The project required managing stakeholder alignment across time zones and disciplines, translating technical constraints into user-facing language, and building content that would scale across multiple configuration scenarios. It's the kind of project that doesn't look complicated from the outside but requires significant cross-functional coordination to actually&nbsp;ship.</p>
 
             <h3>Command Search — Discoverability at Scale</h3>
             <p>SolidWorks has thousands of commands across its desktop interface. For new users, finding the right command at the right moment is a genuine barrier to learning. For experienced users, it's a workflow efficiency problem.</p>
@@ -63,8 +61,8 @@ function Solidworks() {
 
           <section className="project-section">
             <h2>What This Demonstrates</h2>
-            <p>Designing for SolidWorks taught me that the hardest UX problems aren't about making things look good — they're about earning trust from users who know more about the domain than you do, introducing change to people who've built their professional identity around the existing system, and translating complex technical constraints into experiences that feel simple without being patronizing.</p>
-            <p>Those skills — designing for expert users, managing cross-functional complexity, and building systems that scale — are directly applicable to any product role where the user has high expectations and low tolerance for&nbsp;friction.</p>
+            <p>Designing for SolidWorks taught me that the hardest UX problems aren't about making things look good. They're about earning trust from users who know more about the domain than you do, introducing change to people who've built their professional identity around the existing system, and translating complex technical constraints into experiences that feel simple without being patronizing.</p>
+            <p>Designing for expert users, managing cross functional complexity, and building systems that scale are skills directly applicable to any product role where the user has high expectations and low tolerance for&nbsp;friction.</p>
           </section>
 
         </div>

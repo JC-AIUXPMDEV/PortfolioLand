@@ -11,7 +11,7 @@ function PhysicalDigital() {
         <header className="project-detail-header">
           <span className="category-tag">Physical Product Design and Development · Crystal Design Studio</span>
           <h1>Physical Product Design and&nbsp;Development</h1>
-          <p className="project-framing">18 years taking consumer products from concept to market — soft goods, accessories, and home furnishings across three continents.</p>
+          <p className="project-framing">18 years of consumer products consulting and bringing ideas from concept to market, across soft goods, accessories, and home furnishings.</p>
         </header>
 
         <div className="project-body">
@@ -28,8 +28,8 @@ function PhysicalDigital() {
 
           <section className="project-section">
             <h2>The Work</h2>
-            <p>For 18 years I ran a one-person design studio helping everyone from solo inventors to global brands take physical products from first sketch to factory floor. The categories ranged widely — backpacks, luggage, gloves, footwear, and home furnishings — but the core challenge was always the same: translate an idea into something real, manufacturable, and worth buying.</p>
-            <p>This work ran concurrently with Hepper for most of its life, which meant I was simultaneously building my own brand and advising others on how to build theirs. The overlap was intentional — the consulting work kept me sharp on manufacturing trends and market realities, and the Hepper experience gave me founder-level credibility that made client relationships more honest and more&nbsp;useful.</p>
+            <p>For 18 years I ran a one-person design studio helping everyone from solo inventors to global brands take physical products from brief to factory floor. The categories ranged widely — backpacks, luggage, gloves, footwear, and home furnishings — but the core challenge was always the same: translate an idea into something real, manufacturable, and worth buying.</p>
+            <p>This work ran concurrently with Hepper, which meant I was simultaneously building my own brand and advising others on how to build theirs. The overlap was intentional — the consulting work kept me sharp on manufacturing trends and market realities, and the Hepper experience gave me founder-level credibility that made client relationships more honest and more&nbsp;useful.</p>
           </section>
 
           <section className="project-section">
@@ -52,7 +52,7 @@ function PhysicalDigital() {
             <h2>What This Built</h2>
             <p>Eighteen years of consulting across dozens of clients and categories built one capability above all others: the ability to communicate design across every kind of gap.</p>
             <p>Inventors and solo founders see their product one way. Engineers see it another. Factory managers in three different countries see it three more ways. Getting an idea out of someone's head, through a design process, through production, and into a market — without losing what made it worth making in the first place — is fundamentally a communication problem.</p>
-            <p>The harder lesson came from the clients who were difficult — typically solo inventors with limited budgets and preconceived ideas about how the process should work. Managing the gap between what someone envisions and what's actually buildable, affordable, and sellable requires honesty delivered with care. That skill — being useful without being brutal, and honest without being dismissive — is one I use in every professional relationship.</p>
+            <p>The harder lesson came from the most difficult clients, typically solo inventors with limited budgets and preconceived ideas about how the process should work. Managing the gap between what someone envisions and what's actually buildable, affordable, and sellable requires honesty delivered with care. Being useful without being brutal, and honest without being dismissive, is a skill I use in every professional relationship.</p>
           </section>
 
         </div>

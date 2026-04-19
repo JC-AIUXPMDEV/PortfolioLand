@@ -14,11 +14,11 @@ function About() {
           Bio carried forward from existing site.
           [BIO PLACEHOLDER — replace/expand with final 4-paragraph version]
         */}
-        <p>I've spent 20+ years building products from the ground up — physically and digitally. I founded Hepper, a modern consumer pet brand, ran it for 13 years, and negotiated a successful exit. That experience gave me a rare end-to-end view: owning product strategy, design, and the business simultaneously, from zero to&nbsp;exit.</p>
+        <p>I've spent 20+ years building products from the ground up — physically and digitally. I founded Hepper, a modern consumer pet brand, ran it for 13 years, and negotiated a successful exit. That experience gave me a rare hands-on end to end experience: owning product strategy, design, and the business simultaneously, from zero to&nbsp;exit.</p>
 
-        <p>Before and after Hepper, I've worked at the intersection of physical and digital — designing wearable robotics at Harvard's Wyss Institute, leading UX for 3D CAD software at SolidWorks, and consulting for consumer brands from early concept through production. My industrial design background pushes every digital decision through a physical-world lens. My UX background means I think beyond the object — to how it's worn, used, and connected to the digital ecosystem around&nbsp;it.</p>
+        <p>Before and after Hepper, I've worked at the intersection of physical and digital — designing wearable robotics at Harvard's Wyss Institute, leading UX projects for 3D CAD software at SolidWorks, and consulting for consumer brands from early concept through production. My industrial design background pushes every digital decision through a physical-world lens. My UX background helps me think beyond the object, to how it's worn, used, and connected to the digital ecosystem around&nbsp;it.</p>
 
-        <p>What I do best is hold the whole product in my head at once — the business case, the user experience, the manufacturing reality — and design across all three at the&nbsp;same&nbsp;time.</p>
+        <p>I think best when I'm working across the full product picture: the business rationale, the user experience, and the manufacturing reality, simultaneously rather than&nbsp;sequentially.</p>
 
         {/* [BIO PARAGRAPH 4 PLACEHOLDER — additional context, voice, or framing] */}
         <p>[BIO PARAGRAPH 4 PLACEHOLDER]</p>
