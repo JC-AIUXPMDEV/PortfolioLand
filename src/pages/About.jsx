@@ -14,14 +14,23 @@ function About() {
           Bio carried forward from existing site.
           [BIO PLACEHOLDER — replace/expand with final 4-paragraph version]
         */}
-        <p>I've spent 20+ years building products from the ground up — physically and digitally. I founded Hepper, a modern consumer pet brand, ran it for 13 years, and negotiated a successful exit. That experience gave me a rare hands-on end to end experience: owning product strategy, design, and the business simultaneously, from zero to&nbsp;exit.</p>
+        <p>I've spent 20+ years building physical and digital products from the ground&nbsp;up.</p>
 
-        <p>Before and after Hepper, I've worked at the intersection of physical and digital — designing wearable robotics at Harvard's Wyss Institute, leading UX projects for 3D CAD software at SolidWorks, and consulting for consumer brands from early concept through production. My industrial design background pushes every digital decision through a physical-world lens. My UX background helps me think beyond the object, to how it's worn, used, and connected to the digital ecosystem around&nbsp;it.</p>
+        <p>For about 13 of those years, I was also growing Hepper, a modern pet brand that I founded. I designed the full product line, managed manufacturing across 3 countries, grew to 40,000 email subscribers and international retail, and negotiated a successful&nbsp;exit.</p>
 
-        <p>I think best when I'm working across the full product picture: the business rationale, the user experience, and the manufacturing reality, simultaneously rather than&nbsp;sequentially.</p>
+        <p>That experience gave me a rare hands-on, end-to-end view: owning product strategy, design, and the business simultaneously, from zero to one and&nbsp;beyond.</p>
+
+        <p>Before and after Hepper, I've worked at the intersection of physical and digital, designing wearable robotics at Harvard's Wyss Institute, leading UX projects for 3D CAD software at SolidWorks, and consulting for consumer brands from early concept through&nbsp;production.</p>
+
+        <p>My industrial design background pushes every digital decision through a physical-world lens. How it feels, how it's made, how it holds&nbsp;up.</p>
+
+        <p>My UX background means I don't just design the physical product. I think about how it fits into the full user experience, from how it's worn and used to how it connects to the digital ecosystem around&nbsp;it.</p>
+
+        <p>What I'm drawn to now: consumer brands building at the intersection of hardware and software, wearable tech, health and performance, connected devices, where the physical experience and the digital experience have to work as one. I understand both sides of that equation, and I know how to translate between&nbsp;them.</p>
+
+        <p>I think best when I'm working across the full product picture: the business rationale, the user experience, and the manufacturing reality,&nbsp;simultaneously.</p>
 
         {/* [BIO PARAGRAPH 4 PLACEHOLDER — additional context, voice, or framing] */}
-        <p>[BIO PARAGRAPH 4 PLACEHOLDER]</p>
       </section>
 
       <section className="about-skills">
