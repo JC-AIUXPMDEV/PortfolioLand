@@ -41,7 +41,7 @@ function App() {
       <div className="site-header">
         <div className="site-banner" role="banner">
           <p className="site-banner-text">
-            Site under construction. Please check back soon or contact me on{' '}
+            Site under development. Check back soon or contact me anytime on{' '}
             <a
               href="https://www.linkedin.com/in/jedcrystal/"
               target="_blank"
