@@ -10,27 +10,19 @@ function About() {
       </section>
 
       <section className="about-bio">
-        {/*
-          Bio carried forward from existing site.
-          [BIO PLACEHOLDER — replace/expand with final 4-paragraph version]
-        */}
         <p>I've spent 20+ years building physical and digital products from the ground&nbsp;up.</p>
 
-        <p>For about 13 of those years, I was also growing Hepper, a modern pet brand that I founded. I designed the full product line, managed manufacturing across 3 countries, grew to 40,000 email subscribers and international retail, and negotiated a successful&nbsp;exit.</p>
+        <p>For 13 of those years, I was also growing Hepper, a modern pet brand I founded. I designed the product line, managed manufacturing across three countries, grew the business to 40,000 email subscribers and international retail distribution, and negotiated a successful exit.</p>
 
-        <p>That experience gave me a rare hands-on, end-to-end view: owning product strategy, design, and the business simultaneously, from zero to one and&nbsp;beyond.</p>
+        <p>That experience gave me a rare, hands-on view of product building: shaping strategy, designing the experience, navigating manufacturing, and making the tradeoffs required to bring ideas from zero to one and beyond.</p>
 
-        <p>Before and after Hepper, I've worked at the intersection of physical and digital, designing wearable robotics at Harvard's Wyss Institute, leading UX projects for 3D CAD software at SolidWorks, and consulting for consumer brands from early concept through&nbsp;production.</p>
+        <p>I've also designed wearable robotics at Harvard's Wyss Institute, led UX projects for 3D CAD software at SolidWorks, and consulted with consumer brands from early concept through production.</p>
 
-        <p>My industrial design background pushes every digital decision through a physical-world lens. How it feels, how it's made, how it holds&nbsp;up.</p>
+        <p>My work sits at the intersection of industrial design, UX, and product strategy. I care about how things feel, how they're made, how they hold up, and how they fit into the larger experience around them.</p>
 
-        <p>My UX background means I don't just design the physical product. I think about how it fits into the full user experience, from how it's worn and used to how it connects to the digital ecosystem around&nbsp;it.</p>
+        <p>I'm drawn to consumer brands building where hardware and software meet: wearable tech, health and performance, connected devices, and products where the physical and digital experience have to work as one.</p>
 
-        <p>What I'm drawn to now: consumer brands building at the intersection of hardware and software, wearable tech, health and performance, connected devices, where the physical experience and the digital experience have to work as one. I understand both sides of that equation, and I know how to translate between&nbsp;them.</p>
-
-        <p>I think best when I'm working across the full product picture: the business rationale, the user experience, and the manufacturing reality,&nbsp;simultaneously.</p>
-
-        {/* [BIO PARAGRAPH 4 PLACEHOLDER — additional context, voice, or framing] */}
+        <p>I help teams build products that make sense as businesses, feel right to users, and hold up in the real world.</p>
       </section>
 
       <section className="about-skills">

@@ -32,7 +32,7 @@ from sketch to shelf
 ### [Home] Hero Subheadline
 [FILE: Home.jsx → `<p className="hero-sub">`]
 
-20 years in physical product design and development; bringing soft goods, wearables, and consumer products from sketch to shelf. Currently working at the intersection of hardware, software, and the human experience between them.
+I connect product strategy, design, user experience, and development to help teams build products that work in the real world. My background spans soft goods, wearable tech, consumer products, and CAD software — bringing ideas from sketch to shelf and beyond.
 
 ---
 
@@ -42,11 +42,11 @@ from sketch to shelf
 Physical Product Design and Development
 
 ---
-
+[updated 1 May 2026]
 ### [Home] "What I Bring" — Item 1 Description
 [FILE: Home.jsx → `whatIBring[0].description`]
 
-End-to-end product design and development across soft goods, wearables, accessories, and furniture — from brief through factory production and market launch. Fluent in CAD, prototyping, manufacturing - with hard-won knowledge of what survives a factory floor and what doesn't.
+End-to-end physical product design and development across soft goods, wearables, accessories, and furniture — from brief through prototyping, factory production, and market launch. Fluent in CAD, materials, prototyping, and manufacturing, with the experience to balance design intent, production constraints, cost, and real-world use.
 
 ---
 
@@ -56,11 +56,11 @@ End-to-end product design and development across soft goods, wearables, accessor
 Founder & CEO
 
 ---
-
+[updated 1 May 2026]
 ### [Home] "What I Bring" — Item 2 Description
 [FILE: Home.jsx → `whatIBring[1].description`]
 
-Founded and scaled Hepper, a DTC consumer pet products brand — full P&L ownership, manufacturing across three countries, international retail, and a successful exit. Currently advising early-stage founders on product and go-to-market strategy through Sketch to Shelf.
+Founded and scaled Hepper, a DTC consumer pet products brand — with full P&L ownership, manufacturing across three countries, international retail distribution, and a successful exit. I bring that founder experience into select consulting work with startups, helping shape product, positioning, and go-to-market strategy.
 
 ---
 
@@ -70,11 +70,11 @@ Founded and scaled Hepper, a DTC consumer pet products brand — full P&L owners
 UX & Software Design
 
 ---
-
+[updated 1 May 2026]
 ### [Home] "What I Bring" — Item 3 Description
 [FILE: Home.jsx → `whatIBring[2].description`]
 
-Leading UX projects for SolidWorks desktop and cloud applications, designing for professional engineers at scale. Experience in user research, workflow mapping, design systems, and cross-functional collaboration inside enterprise scale release cycles.
+Leading UX projects for SolidWorks desktop and cloud applications, with a focus on complex workflows, expert users, and enterprise-scale product development. Experienced in user research, workflow mapping, design systems, and cross-functional collaboration across product, design, engineering, and QA.
 
 ---
 
@@ -84,11 +84,11 @@ Leading UX projects for SolidWorks desktop and cloud applications, designing for
 Wearable Technology
 
 ---
-
+[updated 1 May 2026]
 ### [Home] "What I Bring" — Item 4 Description
 [FILE: Home.jsx → `whatIBring[3].description`]
 
-Designed textile based wearable robotics at Harvard's Wyss Institute — building hands-on experience in how garments and devices attach, move, and perform on the body; balancing comfort, biomechanics, and sensor reliability.
+Designed textile-based wearable robotics at Harvard’s Wyss Institute, working hands-on with how garments and devices attach, move, and perform on the body. Balanced comfort, biomechanics, fit, and sensor reliability in wearable systems designed for real-world use.
 
 ---
 
@@ -117,11 +117,13 @@ Physical Product Design and Development
 Crystal Design Studio
 
 ---
-
+[updated 1 May 2026]
 ### [Work] Project Card 1 — Description
 [FILE: Work.jsx → `projects[0].description`]
 
-Eighteen years designing and developing physical products from concept to factory floor — soft goods, accessories, and consumer goods. Founder to factory experience: brief writing, vendor sourcing, overseas manufacturing, and all of the steps of getting an idea from someone's head onto a retail shelf.
+Physical product design and development across soft goods, accessories, and consumer goods — from early concept through prototyping, vendor sourcing, overseas manufacturing, factory production, and retail launch.
+
+Founder-to-factory experience turning product ideas into buildable, market ready goods.
 
 ---
 
@@ -138,11 +140,11 @@ UX & Software Design
 SolidWorks · Dassault Systèmes
 
 ---
-
+[updated 1 May 2026]
 ### [Work] Project Card 2 — Description
 [FILE: Work.jsx → `projects[1].description`]
 
-Currently working as a User Experience Design Manager for SolidWorks — one of the world's leading 3D CAD platforms. Designing for professional engineers at scale: feature discovery, cloud migration flows, and contextual guidance systems inside large company release cycles.
+Leading UX projects for SolidWorks, one of the world’s leading 3D CAD platforms. Designing complex workflows for professional engineers at scale, including feature discovery, cloud migration flows, and contextual guidance systems within enterprise software release cycles.
 
 ---
 
@@ -159,11 +161,13 @@ Product Strategy
 Ministry of Supply — Sensory Gap Strategy
 
 ---
-
+[updated 1 May 2026]
 ### [Work] Project Card 3 — Description
 [FILE: Work.jsx → `projects[2].description`]
 
-Performance apparel brands spend years engineering how a fabric feels. Then they sell it with a photograph. A strategic framework for closing the gap between physical product experience and digital product representation — and the business case for doing it now.
+Performance apparel brands spend years engineering how a fabric feels — then sell it with a photograph.
+
+A speculative strategy case study on closing the sensory gap between physical product experience and digital representation, with a business case for why apparel brands should solve it now.
 
 ---
 
@@ -181,11 +185,13 @@ Hepper
 
 
 ---
-
+[updated 1 May 2026]
 ### [Work] Project Card 4 — Description
 [FILE: Work.jsx → `projects[3].description`]
 
-Thirteen years founding, building, and exiting a DTC consumer products brand — full P&L ownership, manufacturing across three countries, international retail distribution, and a negotiated acquisition. A complete founder case study from first product to exit.
+Built Hepper from first product concept to successful exit: a DTC consumer pet products brand with full P&L ownership, manufacturing across three countries, and international retail distribution.
+
+A founder case study on building a brand, product line, supply chain, and business from zero.
 
 ---
 
@@ -202,11 +208,11 @@ Physical Product Development — Wearable Robotics
 Wyss Institute at Harvard University
 
 ---
-
+[updated 1 May 2026]
 ### [Work] Project Card 5 — Description
 [FILE: Work.jsx → `projects[4].description`]
 
-Designing a wearable exosuit for industrial workers at the intersection of textile, technology, and the human body — where the engineering challenge is real, and the design constraint is that a factory worker needs to put it on and wear it for eight hours.
+Designing textile-based wearable robotics for industrial workers at the intersection of soft goods, technology, and the human body — where the engineering challenge is complex, and the design constraint is simple: it has to be comfortable, usable, and wearable for a full shift.
 
 ---
 
@@ -223,11 +229,13 @@ Shelf Ready
 Physical Product Framework — Work in Progress
 
 ---
-
+[updated 1 May 2026]
 ### [Work] Project Card 6 — Description
 [FILE: Work.jsx → `projects[5].description`]
 
-Most physical product teams run on a Word doc brief, a shared folder, and one person manually consolidating decisions from calls, emails, and Slack. Shelf Ready is a brief-centered operating system for solo PMs and small teams — adapted from Erika Flowers' Zero Vector methodology — where decisions are logged daily, analyzed by Claude against the master brief, and nothing reaches the factory floor without the owner confirming it first.
+Most physical product teams run on a Word doc brief, a shared folder, and one person manually consolidating decisions from calls, emails, and Slack.
+
+Shelf Ready is a brief-centered operating system for solo PMs and small product teams — turning scattered inputs into a living source of truth for product decisions, development tradeoffs, and factory-ready handoff.
 
 ---
 
@@ -235,84 +243,63 @@ Most physical product teams run on a Word doc brief, a shared folder, and one pe
 ## PAGE: ABOUT
 ## File: src/pages/About.jsx
 ## ═══════════════════════════════════════
-
+[updated 1 May 2026]
 ### [About] Bio — Paragraph 1
 [FILE: About.jsx → `<section className="about-bio"> <p>` first]
 
-I've spent 20+ years building physical and digital products from the ground up.
+I’ve spent 20+ years building physical and digital products from the ground up.
 
-For about 13 of those years, I was also growing Hepper, a modern pet brand that I founded. I designed the full product line, managed manufacturing across 3 countries, grew to 40,000 email subscribers and international retail, and negotiated a successful exit.
-
-That experience gave me a rare hands-on, end-to-end view: owning product strategy, design, and the business simultaneously, from zero to one and beyond.
+For 13 of those years, I was also growing Hepper, a modern pet brand I founded. I designed the product line, managed manufacturing across three countries, grew the business to 40,000 email subscribers and international retail distribution, and negotiated a successful exit.
 
 ---
-
+[updated 1 May 2026]
 ### [About] Bio — Paragraph 2
 [FILE: About.jsx → `<section className="about-bio"> <p>` second]
 
-Before and after Hepper, I've worked at the intersection of physical and digital, designing wearable robotics at Harvard's Wyss Institute, leading UX projects for 3D CAD software at SolidWorks, and consulting for consumer brands from early concept through production.
+That experience gave me a rare, hands-on view of product building: shaping strategy, designing the experience, navigating manufacturing, and making the tradeoffs required to bring ideas from zero to one and beyond.
 
-My industrial design background pushes every digital decision through a physical-world lens. How it feels, how it's made, how it holds up.
+I’ve also designed wearable robotics at Harvard’s Wyss Institute, led UX projects for 3D CAD software at SolidWorks, and consulted with consumer brands from early concept through production.
 
-My UX background means I don't just design the physical product. I think about how it fits into the full user experience, from how it's worn and used to how it connects to the digital ecosystem around it.
+My work sits at the intersection of industrial design, UX, and product strategy. I care about how things feel, how they’re made, how they hold up, and how they fit into the larger experience around them.
 
 ---
-
+[updated 1 May 2026]
 ### [About] Bio — Paragraph 3
 [FILE: About.jsx → `<section className="about-bio"> <p>` third]
 
-What I'm drawn to now: consumer brands building at the intersection of hardware and software, wearable tech, health and performance, connected devices, where the physical experience and the digital experience have to work as one. I understand both sides of that equation, and I know how to translate between them.
+I’m drawn to consumer brands building where hardware and software meet: wearable tech, health and performance, connected devices, and products where the physical and digital experience have to work as one.
 
-I think best when I'm working across the full product picture: the business rationale, the user experience, and the manufacturing reality, simultaneously.
-
----
-
-### [About] Bio — Paragraph 4
-[FILE: About.jsx → `<section className="about-bio"> <p>` fourth — currently placeholder]
-
-[PLACEHOLDER — additional context, voice, or framing for the bio]
+I help teams build products that make sense as businesses, feel right to users, and hold up in the real world.
 
 ---
 
-### [About] Skills List — Item 1
-[FILE: About.jsx → `<ul className="skills-list"> <li>` first]
+### [About] Skills — Group 1: Product Development
+[FILE: About.jsx → `<div className="skills-group">` first → `<span className="skills-group-title">` + `<ul className="skills-list">`]
 
-[PLACEHOLDER]
+**Group title:** Product Development
 
----
-
-### [About] Skills List — Item 2
-[FILE: About.jsx → `<ul className="skills-list"> <li>` second]
-
-[PLACEHOLDER]
+- End-to-end physical product development — soft goods, wearables, accessories, and consumer goods from brief to factory to market
+- Brief writing, vendor sourcing, overseas manufacturing, and production management across multiple countries and cultures
 
 ---
 
-### [About] Skills List — Item 3
-[FILE: About.jsx → `<ul className="skills-list"> <li>` third]
+### [About] Skills — Group 2: Design and Research
+[FILE: About.jsx → `<div className="skills-group">` second → `<span className="skills-group-title">` + `<ul className="skills-list">`]
 
-[PLACEHOLDER]
+**Group title:** Design and Research
 
----
-
-### [About] Skills List — Item 4
-[FILE: About.jsx → `<ul className="skills-list"> <li>` fourth]
-
-[PLACEHOLDER]
+- UX design, user research, workflow mapping, and design systems for enterprise software
+- Industrial design, CAD, prototyping, and materials knowledge across textiles, soft goods, and hard goods
 
 ---
 
-### [About] Skills List — Item 5
-[FILE: About.jsx → `<ul className="skills-list"> <li>` fifth]
+### [About] Skills — Group 3: Business and Operations
+[FILE: About.jsx → `<div className="skills-group">` third → `<span className="skills-group-title">` + `<ul className="skills-list">`]
 
-[PLACEHOLDER]
+**Group title:** Business and Operations
 
----
-
-### [About] Skills List — Item 6
-[FILE: About.jsx → `<ul className="skills-list"> <li>` sixth]
-
-[PLACEHOLDER]
+- P&L ownership, DTC e-commerce, brand building, and founder-to-exit experience
+- Cross-functional product leadership and stakeholder alignment without direct authority
 
 ---
 
@@ -324,21 +311,18 @@ I think best when I'm working across the full product picture: the business rati
 ### [Contact] Intro Line
 [FILE: Contact.jsx → `<p className="contact-intro">`]
 
-[PLACEHOLDER — e.g. "Open to the right opportunities. No cold pitches."]
-
----
-
-### [Contact] Email Address
-[FILE: Contact.jsx → `<a href="mailto:...">` — replace both the href and display text]
-
-[PLACEHOLDER — email@placeholder.com]
+Contact me on LinkedIn.
 
 ---
 
 ### [Contact] LinkedIn URL
-[FILE: Contact.jsx → `<a href="https://www.linkedin.com/in/jedcrystal/">` — already live, confirm or update]
+[FILE: Contact.jsx → `<a href="https://www.linkedin.com/in/jedcrystal/">`]
 
 https://www.linkedin.com/in/jedcrystal/
+
+---
+
+**NOTE:** Email contact is not currently on the site — LinkedIn only.
 
 ---
 
@@ -364,18 +348,18 @@ Hepper — From Zero to Exit
 ### [Hepper] Page Header — Framing
 [FILE: Hepper.jsx → `<p className="project-framing">`]
 
-A case study in consumer product development, brand building, and strategic exit.
+A 13-year case study in consumer product development, brand building, and strategic exit.
 
 ---
 
 ### [Hepper] Section: The Opportunity
 [FILE: Hepper.jsx → `<section> <h2>The Opportunity</h2>`]
 
-In the mid-2000s, I was a physical product designer with a growing collection of modern furniture in my home and a house full of cats. The problem was obvious to anyone with both: the pet product industry had nothing worth buying if you cared about design.
+In the mid-2000s, I was a physical product designer with a growing collection of modern furniture in my home — and a house full of cats. The problem was obvious to anyone with both: the pet product industry had nothing worth buying if you cared about design.
 
-I thought this might be a good business direction to explore, so I spent time walking pet industry trade shows as an attendee, and working booths alongside friends who owned existing pet brands.
+I didn't act on that frustration immediately. Instead, I spent time walking pet industry trade shows — both as an attendee and working booths alongside friends who owned existing pet brands.
 
-What I found confirmed the personal observation at a market level: the entire category was dominated by big box brands knocking each other off, with no meaningful innovation in design or function. I saw a gap in the demographic I knew — design conscious, modern style pet owners in their 30s and 40s who spent real money on their homes but had zero options for their pets that weren't an eyesore.
+What I found confirmed the personal observation at a market level: the entire category was dominated by big-box brands knocking each other off, with no meaningful innovation in design or function. The buyers at these shows skewed toward exactly the demographic I knew — design-conscious, modern-living pet owners in their 30s and 40s who spent real money on their homes but had zero options for their pets that didn't look like an eyesore.
 
 That gap between what the market offered and what a clear consumer segment wanted was the founding insight. Not a hunch — a thesis validated by primary research before a single product was designed.
 
@@ -388,13 +372,13 @@ The first product was the Pod Bed — a cat bed with a roof, elevated off the gr
 
 From there, I built out the line methodically, always starting from the same question: what functional problem does this product solve that nothing on the market solves well?
 
-The NomNom Bowl came from a specific pet health insight; whisker fatigue, a real and common issue where cats are stressed by their whiskers touching the sides of a narrow bowl. The NomNom's wide, shallow design eliminated the trigger.
+The NomNom Bowl came from a specific pet health insight — whisker fatigue, a real and common issue where cats are stressed by their whiskers touching the sides of a narrow bowl. The NomNom's wide, shallow design eliminated the trigger.
 
-It also had a raised lip to catch food debris and keep floors clean; a pet owner problem, not just a pet problem. The product solved for both simultaneously.
+It also had a raised lip to catch food debris and keep floors clean — a pet owner problem, not just a pet problem. The product solved for both simultaneously.
 
 The Hi-Lo Scratcher came from a different observation: cardboard scratchers wear out unevenly because cats tend to use only one section. The Hi-Lo could be repositioned into multiple configurations, distributing wear across the surface and dramatically extending product life.
 
-Every product went through the same validation cycle: prototype at home with my own cats, test with friends' pets for broader behavioral feedback, run small focus groups with local pet owners on design and usability. Products that didn't generate genuine excitement got cut. One modular scratcher concept I developed got killed mid-development when manufacturing costs made viable margin impossible. That was an early lesson in building business feasibility into the design process from the start, not as an afterthought.
+Every product went through the same validation cycle: prototype at home with my own cats, test with friends' pets for broader behavioral feedback, run small focus groups with local pet owners on design and usability. Products that didn't generate genuine excitement got cut. One modular scratcher concept I developed got killed mid-development when manufacturing costs made viable margin impossible — an early lesson in building business feasibility into the design process from the start, not as an afterthought.
 
 ---
 
@@ -405,47 +389,47 @@ Manufacturing a physical product is a communication problem as much as a design 
 
 Early on I learned that a beautiful rendering means nothing if the person reading it in a factory in another country interprets a single dimension differently.
 
-I developed a documentation practice built around precision and redundancy: detailed SOPs, annotated technical drawings, physical samples at every stage, and explicit sign off checkpoints before production began. I learned to write briefs that left no room for interpretation.  And when language was a barrier, to communicate through drawings, samples, and side-by-side comparisons.
+I developed a documentation practice built around precision and redundancy: detailed SOPs, annotated technical drawings, physical samples at every stage, and explicit sign-off checkpoints before production began. I learned to write briefs that left no room for interpretation — and when language was a barrier, to communicate through drawings, samples, and side-by-side comparisons.
 
-Managing remote freelancers, US vendors, and overseas factories simultaneously also meant understanding that each audience needs information packaged differently. What a factory floor manager needs to execute is not the same document a marketing freelancer needs to write copy. Getting that translation right —  across every project — is what kept quality consistent across a bootstrapped, one-person operation.
+Managing remote freelancers, US vendors, and overseas factories simultaneously also meant understanding that each audience needs information packaged differently. What a factory floor manager needs to execute is not the same document a marketing freelancer needs to write copy. Getting that translation right — consistently, across every project — is what kept quality consistent across a bootstrapped, one-person operation.
 
 ---
 
 ### [Hepper] Section: Judgment Under Pressure
 [FILE: Hepper.jsx → `<section> <h2>Judgment Under Pressure</h2>`]
 
-Late in one product cycle, I was waiting on a holiday shipment of beds when the production sample arrived for final review. I spotted an immediately obvious flaw: a section of trim that had been mis-stitched. To my eye, it was glaring problem. I was genuinely worried it would tank customer satisfaction and trigger a wave of returns — costly for any business, devastating for my bootstrapped company with thin margins.
+Late in one product cycle, I was waiting on a holiday shipment of beds when the production sample arrived for final review. I spotted an immediately obvious flaw — a section of trim that had been mis-stitched. To my eye, trained to see exactly these kinds of defects, it was glaring. I was genuinely worried it would tank customer satisfaction and trigger a wave of returns — costly for any business, devastating for a bootstrapped one with thin margins.
 
 I called the factory. Explained the problem. Pushed hard for a fix. The answer was simple and non-negotiable: fix it and wait four to five months, or ship it and make holiday sales.
 
-I shipped it. And then immediately built a contingency plan: a full returns and rebate system, ready to deploy if customers noticed. They didn't. Not one complaint. Not one return related to the defect.
+I shipped it. And then immediately built a contingency plan — a full returns and rebate system, ready to deploy if customers noticed. They didn't. Not one complaint. Not one return related to the defect.
 
-The lesson wasn't that quality doesn't matter. It's that the designer's eye and the customer's eye are not the same thing, and that knowing the difference, and being able to act on that difference under real business pressure is what separates product leaders from product perfectionists. I still think about that shipment every time I'm tempted to hold something back for one more round of refinement.
+The lesson wasn't that quality doesn't matter. It's that the designer's eye and the customer's eye are not the same thing, and that knowing the difference — and being able to act on that difference under real business pressure — is what separates product leaders from product perfectionists. I still think about that shipment every time I'm tempted to hold something back for one more round of refinement.
 
 ---
 
 ### [Hepper] Section: The Exit
 [FILE: Hepper.jsx → `<section> <h2>The Exit</h2>`]
 
-I explored selling Hepper more than once before the final deal came together. Two earlier conversations went deep into due diligence and didn't close — one because the margins and operational complexity didn't match the buyer's expectations, one because I chose to walk away at the 11th hour when it became clear the structure would leave me in a partnership I didn't want rather than a clean exit.
+I explored selling Hepper more than once before the Pangolia deal came together. Two earlier conversations went deep into due diligence and didn't close — one because the margins and operational complexity didn't match the buyer's expectations, one because I chose to walk away at the 11th hour when it became clear the structure would leave me in a partnership I didn't want rather than a clean exit.
 
-That second walkaway was hard. But it was the right call, and it shaped how I approached the eventual sale to the Pangolio Media brand.
+That second walkaway was hard. But it was the right call, and it shaped how I approached the eventual sale.
 
-The Pangolia connection came through a shared entrepreneur group. Their founder was building a media company around pet content and wanted to add a physical product brand to the portfolio. The fit was immediately obvious, he understood the pet market deeply, was genuinely passionate about the brand, and had the operational infrastructure to take it further than I could as a solo operator.
+The Pangolia connection came through a shared entrepreneur group. Their founder was building a media company around pet content and wanted to add a physical product brand to the portfolio. The fit was immediately obvious — he understood the pet market deeply, was genuinely passionate about the brand, and had the operational infrastructure to take it further than I could as a solo operator.
 
 The negotiation was structured and straightforward. I identified and valued the tangible assets: IP, inventory, web assets, email list, factory relationships. Some line items came in below my initial expectations, but the inventory buyout addressed my most significant liability.
 
-More importantly, the trust built during the process led to a post acquisition consulting arrangement, and I continued designing new products for the brand.
+More importantly, the trust built during the process led to a post-acquisition consulting arrangement — I continued designing new products for the brand under my original creative direction. That outcome doesn't happen without mutual respect on both sides of the table.
 
-It was satisfying to have a clean exit after 13 years of work and to see the brand still growing today.
+Thirteen years of work. A clean exit. A brand still operating and growing today.
 
 
 ---
 
-### [Hepper] Section: What I Learned
+### [Hepper] Section: What This Built
 [FILE: Hepper.jsx → `<section> <h2>What This Built</h2>`]
 
-**Full ownership sharpens every decision.** When your personal savings and monthly rent are the direct consequence of every product and business decision, there is no such thing as a low stakes call. That experience permanently recalibrated how I evaluate risk, prioritize investment, and take responsibility for outcomes. I don't need external accountability structures to operate with urgency; I've internalized it.
+**Full ownership sharpens every decision.** When your personal savings and monthly rent are the direct consequence of every product and business decision, there is no such thing as a low-stakes call. That experience permanently recalibrated how I evaluate risk, prioritize investment, and take responsibility for outcomes. I don't need external accountability structures to operate with urgency — I've internalized it.
 
 **Cross-cultural supply chain management is a communication discipline.** Managing factories across three countries, vendors across time zones, and remote teams across languages taught me that the quality of a final product is directly proportional to the quality of the brief that initiated it. I learned to write documentation that survives translation — literally and figuratively — and to adapt how I communicate in real time based on what each audience can hear, see, and act on.
 
@@ -491,9 +475,9 @@ Designing a wearable exosuit for human performance at the intersection of textil
 ### [Wyss] Section: The Project
 [FILE: Wyss.jsx → `<section> <h2>The Project</h2>`]
 
-In early 2019 I joined a wearable robotics project at the Wyss Institute at Harvard; one of the world's leading environments for bioinspired technology. The project had a specific industrial mandate: develop a shoulder assist device, funded by TATA, for use on automotive assembly lines. The goal was human performance;  reducing the repetitive motion injuries that factory workers sustain from sustained overhead and shoulder intensive tasks.
+In early 2019 I joined a wearable robotics project at the Wyss Institute for Biologically Inspired Engineering at Harvard — one of the world's leading environments for bioinspired technology. The project had a specific industrial mandate: develop a shoulder assist device, funded by TATA, for use on automotive assembly lines. The goal was human performance — reducing the repetitive motion injuries that factory workers sustain from sustained overhead and shoulder-intensive tasks.
 
-The core technology was already in place: an inflatable air actuator - essentially an artificial muscle - that offloaded strain from the shoulder joint during lifting. What wasn't solved was how to make it wearable; how to take a working research prototype and turn it into something a real worker would actually put on and use for an eight-hour shift. That was the problem I was hired to work on.
+The core technology was already in place: an inflatable air actuator, essentially an artificial muscle, that offloaded strain from the shoulder joint during lifting. What wasn't solved was how to make it wearable — how to take a working research prototype and turn it into something a real worker would actually put on and use for an eight-hour shift. That was the problem I was hired to close.
 
 ---
 
@@ -511,11 +495,11 @@ But the mounting points weren't stable enough to transfer force effectively, the
 ### [Wyss] Section: Navigating Two Definitions of Success
 [FILE: Wyss.jsx → `<section> <h2>Navigating Two Definitions of Success</h2>`]
 
-Working at a research institution on an industry funded project means operating with two distinct definitions of success running simultaneously and they don't always point in the same direction.
+Working at a research institution on an industry-funded project means operating with two distinct definitions of success running simultaneously — and they don't always point in the same direction.
 
-TATA needed a device workers could actually use: wearable, durable, easy to don and doff, compatible with existing PPE. The research environment had its own metrics; publishable results, demonstrable technical innovation, visuals compelling enough to attract future funding. A photogenic prototype that performed well in a motion lab served those goals, even if it wasn't ready for a factory floor.
+TATA needed a device workers could actually use: wearable, durable, easy to don and doff, compatible with existing PPE. The research environment had its own metrics — publishable results, demonstrable technical innovation, visuals compelling enough to attract future funding. A photogenic prototype that performed well in a motion lab served those goals, even if it wasn't ready for a factory floor.
 
-My job was to ride the line between both and to push toward genuine product viability while working within the institution's constraints. That meant learning to communicate with research engineers in their language, advocating consistently for the end user, and knowing when to push hard for a product minded decision and when to work within the research frame.
+My job was to ride the line between both — pushing toward genuine product viability while working within the institution's constraints. That meant learning to communicate with research engineers in their language, advocating consistently for the end user, and knowing when to push hard for a product-minded decision and when to work within the research frame.
 
 ---
 
@@ -528,9 +512,9 @@ The key insight: skeletal structure is your friend. The hip bone, the shoulder g
 
 I worked on two parallel tracks. The first was refining the undergarment, introducing non-extensible laminated zones at strategic points to create localized stability without requiring the whole garment to be uncomfortably tight. The goal was something that felt like normal clothing in most areas but gave the actuator precise, stable mounting where it needed it.
 
-The second track was actuator placement. The most mechanically efficient configuration was a long beam from the hip to the elbow, which transferred force well but created what we called the "batwing effect": a visual profile that read as strange, bulky, and distinctly non-consumer. Positioning the actuator in the armpit zone instead was less mechanically optimal but dramatically more wearable in appearance and feel.
+The second track was actuator placement. The most mechanically efficient configuration — a long beam from the hip to the elbow — transferred force well but created what we called the "batwing effect": a visual profile that read as strange, bulky, and distinctly non-consumer. The alternative, positioning the actuator in the armpit zone, was less mechanically optimal but dramatically more wearable in appearance and feel.
 
-Functional efficiency versus psychological acceptance is a tradeoff that comes up constantly in wearable consumer products. A device that works perfectly but looks or feels wrong will not get worn. And a device that doesn't get worn helps no one.
+That tradeoff — functional efficiency versus psychological acceptance — comes up constantly in wearable consumer products. A device that works perfectly but looks or feels wrong will not get worn. And a device that doesn't get worn helps no one.
 
 ---
 
@@ -572,23 +556,23 @@ Physical Product Design and Development · Crystal Design Studio
 Physical Product Design and Development
 
 ---
-
+[updated 1 May 2026]
 ### [PhysicalDigital] Page Header — Framing
 [FILE: PhysicalDigital.jsx → `<p className="project-framing">`]
 
-18 years of consumer products consulting and bringing ideas from concept to market, across soft goods, accessories, and home furnishings.
+Consumer products consulting and bringing ideas from concept to market, across soft goods, accessories, and home furnishings.
 
 ---
-
+[updated 1 May 2026]
 ### [PhysicalDigital] Section: The Work
 [FILE: PhysicalDigital.jsx → `<section> <h2>The Work</h2>`]
 
-For 18 years I ran a one-person design studio helping everyone from solo inventors to global brands take physical products from brief to factory floor. The categories ranged widely — backpacks, luggage, gloves, footwear, and home furnishings — but the core challenge was always the same: translate an idea into something real, manufacturable, and worth buying.
+For 18 years I ran a one-person design studio helping everyone from solo inventors to global brands take physical products from brief to production. The categories ranged widely — backpacks, luggage, gloves, footwear, and home furnishings — but the core challenge was always the same: translate an idea into something real, manufacturable, and worth buying.
 
-This work ran concurrently with Hepper, which meant I was simultaneously building my own brand and advising others on how to build theirs. The overlap was intentional — the consulting work kept me sharp on manufacturing trends and market realities, and the Hepper experience gave me founder-level credibility that made client relationships more honest and more useful.
+This work ran concurrently with Hepper; I was simultaneously building my own brand and advising others on how to build theirs. The overlap was intentional — the consulting work kept me sharp on manufacturing trends and market realities, and the Hepper experience gave me founder credibility that made client relationships more honest and more useful.
 
 ---
-
+[updated 1 May 2026]
 ### [PhysicalDigital] Section: Selected Projects
 [FILE: PhysicalDigital.jsx → `<section> <h2>Selected Projects</h2>`]
 
@@ -600,9 +584,9 @@ This project is a good example of what the best client relationships look like �
 
 **Gordini / Timberland Glove Line**
 
-As a Senior Product Designer at Gordini USA, a Timberland licensee, I designed and managed the full Timberland glove line across three seasons, from concept through trade show presentation. The work covered outdoor performance gloves, lifestyle styles, base layers, and accessories.
+As a Senior Product Designer at Gordini USA, a Timberland licensee, I designed and managed the full Timberland glove line across three seasons, from concept through trade show presentation. The work at Gordini also covered outdoor performance gloves, base layers, and accessories.
 
-The key market insight from this category: gloves are largely a commodity purchase. Buyers want something functional, affordable, and not too fashion forward. Understanding where a category sits on the innovation spectrum — and designing accordingly rather than against it — is a skill that transfers across every product type.
+The key market insight from this category: gloves are largely a commodity purchase. Buyers wanted something functional, affordable, and not too fashion forward. But Timberland wanted designs that fit into their season styling and that were exciting for marketing. Understanding where a category sits on the innovation spectrum — and designing accordingly rather than against it  - was the challenge in this role.
 
 **Cross-Category Consulting**
 
@@ -611,11 +595,11 @@ The studio touched most corners of the soft goods and consumer product world. Ba
 Working across categories meant never getting too comfortable with any single set of assumptions about how products are made or why people buy them.
 
 ---
+[updated 1 May 2026]
+### [PhysicalDigital] Section: Communication is the Key
+[FILE: PhysicalDigital.jsx → `<section> <h2>Communication is the Key</h2>`]
 
-### [PhysicalDigital] Section: What This Built
-[FILE: PhysicalDigital.jsx → `<section> <h2>What This Built</h2>`]
-
-Eighteen years of consulting across dozens of clients and categories built one capability above all others: the ability to communicate design across every kind of gap.
+Consulting across dozens of clients and categories built one capability above all others: the ability to communicate design across every kind of gap.
 
 Inventors and solo founders see their product one way. Engineers see it another. Factory managers in three different countries see it three more ways. Getting an idea out of someone's head, through a design process, through production, and into a market without losing what made it worth making in the first place is fundamentally a communication problem.
 
@@ -660,7 +644,7 @@ Designing for professional engineers at the intersection of complexity and simpl
 ### [Solidworks] Section: The Context
 [FILE: Solidworks.jsx → `<section> <h2>The Context</h2>`]
 
-SolidWorks is one of the world's leading 3D CAD platforms, used by professional engineers, product designers, and manufacturers across nearly every industry. For four years I've been a UX designer responsible for desktop and cloud application experiences , designing for one of the most technically demanding and opinionated user audiences in software.
+SolidWorks is one of the world's leading 3D CAD platforms, used by professional engineers, product designers, and manufacturers across nearly every industry. For four years I've been a UX designer responsible for desktop and cloud application experiences, designing for one of the most technically demanding and opinionated user audiences in software.
 
 The work sits at an unusual intersection: deeply complex professional tooling, a fiercely loyal user base that resists change, and a company pushing hard toward cloud migration. My job is to make that transition feel inevitable rather than disruptive.
 
@@ -707,13 +691,13 @@ SolidWorks has thousands of commands across its desktop interface. For new users
 Command Search is a universal search layer that surfaces relevant commands contextually, reducing the cognitive load of navigating a deeply nested menu system that has accumulated decades of additions. The design challenge was creating something powerful enough to satisfy expert users while being approachable enough to genuinely help beginners — without getting in the way of either.
 
 ---
-
+[updated 1 May 2026]
 ### [Solidworks] Section: What This Demonstrates
 [FILE: Solidworks.jsx → `<section> <h2>What This Demonstrates</h2>`]
 
-Designing for SolidWorks taught me that the hardest UX problems aren't about making things look good. They're about earning trust from users who know more about the domain than you do, introducing change to people who've built their professional identity around the existing system, and translating complex technical constraints into experiences that feel simple without being patronizing.
+Designing for SolidWorks taught me that the hardest UX problems aren’t about making things look good. They’re about earning trust from users who know more about the domain than you do, introducing change to people who’ve built their professional identity around the existing system, and translating complex technical constraints into experiences that feel simple without being patronizing.
 
-Designing for expert users, managing cross functional complexity, and building systems that scale are skills directly applicable to any product role where the user has high expectations and low tolerance for friction.
+It also taught me that expert users don’t need software to be simplified as much as they need it to be legible, predictable, and respectful of the way they already think. The work is less about removing complexity and more about helping people move through it with confidence.
 
 ---
 
@@ -746,7 +730,7 @@ Shelf Ready — Physical Product Framework
 ### [ShelfReady] Page Header — Framing
 [FILE: ShelfReady.jsx → `<p className="project-framing">`]
 
-A brief-centered operating system for solo designers, PMs and small teams — where decisions are logged daily, Claude analyzes them against the master brief, and nothing reaches the factory without the owner confirming it first.
+A brief-centered operating system for solo PMs and small teams — where decisions are logged daily, Claude analyzes them against the master brief, and nothing reaches the factory floor without the owner confirming it first.
 
 ---
 
@@ -904,7 +888,7 @@ Returns don't start at the shipping label. They start on the product page — th
 
 And the pressure is structural: 82% of consumers consider free returns essential, even as the cost of providing them becomes increasingly unsustainable for the brands absorbing them. There's no policy solution to this problem. The only exit is giving customers enough information to get it right the first time.
 
-The fitting room didn't disappear when retail moved online. It became the customer's living room -  and the customer's problem. That's the gap. And closing it is worth real money to the brands willing to take it seriously.
+The fitting room didn't disappear when retail moved online. It became the customer's living room — and the customer's problem. That's the gap. And closing it is worth hundreds of billions of dollars to the brands willing to take it seriously.
 
 ---
 

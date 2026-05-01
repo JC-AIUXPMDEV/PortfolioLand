@@ -62,7 +62,7 @@ function Solidworks() {
           <section className="project-section">
             <h2>What This Demonstrates</h2>
             <p>Designing for SolidWorks taught me that the hardest UX problems aren't about making things look good. They're about earning trust from users who know more about the domain than you do, introducing change to people who've built their professional identity around the existing system, and translating complex technical constraints into experiences that feel simple without being patronizing.</p>
-            <p>Designing for expert users, managing cross functional complexity, and building systems that scale are skills directly applicable to any product role where the user has high expectations and low tolerance for&nbsp;friction.</p>
+            <p>It also taught me that expert users don't need software to be simplified as much as they need it to be legible, predictable, and respectful of the way they already think. The work is less about removing complexity and more about helping people move through it with confidence.</p>
           </section>
 
         </div>

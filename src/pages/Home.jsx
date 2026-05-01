@@ -5,19 +5,19 @@ import './Home.css'
 const whatIBring = [
   {
     title: 'Physical Product Design and Development',
-    description: 'End-to-end product design and development across soft goods, wearables, accessories, and furniture — from brief through factory production and market launch. Fluent in CAD, prototyping, manufacturing — with hard-won knowledge of what survives a factory floor and what doesn\'t.',
+    description: 'End-to-end physical product design and development across soft goods, wearables, accessories, and furniture — from brief through prototyping, factory production, and market launch. Fluent in CAD, materials, prototyping, and manufacturing, with the experience to balance design intent, production constraints, cost, and real-world use.',
   },
   {
     title: 'Founder & CEO',
-    description: 'Founded and scaled Hepper, a DTC consumer pet products brand — full P&L ownership, manufacturing across three countries, international retail, and a successful exit. Currently advising early-stage founders on product and go-to-market strategy through Sketch to Shelf.',
+    description: 'Founded and scaled Hepper, a DTC consumer pet products brand — with full P&L ownership, manufacturing across three countries, international retail distribution, and a successful exit. I bring that founder experience into select consulting work with startups, helping shape product, positioning, and go-to-market strategy.',
   },
   {
     title: 'UX & Software Design',
-    description: 'Leading UX projects for SolidWorks desktop and cloud applications, designing for professional engineers at scale. Experience in user research, workflow mapping, design systems, and cross-functional collaboration inside enterprise scale release cycles.',
+    description: 'Leading UX projects for SolidWorks desktop and cloud applications, with a focus on complex workflows, expert users, and enterprise-scale product development. Experienced in user research, workflow mapping, design systems, and cross-functional collaboration across product, design, engineering, and QA.',
   },
   {
     title: 'Wearable Technology',
-    description: 'Designed textile based wearable robotics at Harvard\'s Wyss Institute — building hands-on experience in how garments and devices attach, move, and perform on the body; balancing comfort, biomechanics, and sensor reliability.',
+    description: 'Designed textile-based wearable robotics at Harvard\'s Wyss Institute, working hands-on with how garments and devices attach, move, and perform on the body. Balanced comfort, biomechanics, fit, and sensor reliability in wearable systems designed for real-world use.',
   }
 ]
 
@@ -45,7 +45,7 @@ function Home() {
       <section className="home-hero">
         <h1 className="hero-headline">from sketch to shelf</h1>
 
-        <p className="hero-sub">20 years in physical product design and development; bringing soft goods, wearables, and consumer products from sketch to shelf. Currently working at the intersection of hardware, software, and the human experience between&nbsp;them.</p>
+        <p className="hero-sub">I connect product strategy, design, user experience, and development to help teams build products that work in the real world. My background spans soft goods, wearable tech, consumer products, and CAD software — bringing ideas from sketch to shelf and beyond.</p>
 
         <Link to="/work" className="cta-button">
           See My Work
