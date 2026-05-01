@@ -188,7 +188,7 @@
   font-size: 0.9375rem;
   font-weight: var(--font-weight-light);
   font-style: italic;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   line-height: 1.65;
   margin-bottom: var(--spacing-xl);
   padding-left: calc(var(--spacing-md) + 3px);
@@ -387,7 +387,7 @@
 .ministry-why-body {
   font-size: 0.875rem;
   font-style: italic;
-  color: var(--color-tertiary);
+  color: var(--color-primary);
   margin-top: 0;
 }
 

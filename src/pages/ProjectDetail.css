@@ -42,7 +42,7 @@
 .project-framing {
   font-size: 1.125rem;
   font-weight: var(--font-weight-light);
-  color: var(--color-secondary);
+  color: var(--color-primary);
   line-height: 1.6;
   max-width: 52ch;
   padding-left: calc(1.25rem + 3px); /* align with h1 text edge */
@@ -123,7 +123,7 @@
   font-size: 0.9375rem;
   font-weight: var(--font-weight-light);
   font-style: italic;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   line-height: 1.65;
   padding-left: calc(1.25rem + 3px);
   margin-bottom: var(--spacing-3xl);

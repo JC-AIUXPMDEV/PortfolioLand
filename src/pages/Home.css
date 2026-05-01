@@ -249,7 +249,7 @@
   .bring-desc {
     grid-column: 3;
     grid-row: 1;
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
 }
 

@@ -24,7 +24,7 @@
 .work-intro {
   font-size: clamp(1rem, 1.5vw, 1.125rem);
   font-weight: var(--font-weight-light);
-  color: var(--color-secondary);
+  color: var(--color-primary);
   line-height: 1.6;
   max-width: 44ch;
   padding-left: calc(1.25rem + 3px); /* align with h1 text edge */
@@ -105,8 +105,8 @@
 
 
 .project-description {
-  font-size: 0.9375rem;
-  color: var(--color-secondary);
+  font-size: 1rem;
+  color: var(--color-primary);
   line-height: 1.7;
   max-width: 56ch;
   margin-bottom: var(--spacing-xl);
